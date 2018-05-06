@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Ice Devil</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>180</HP>
+  <HPRoll>19d10+76</HPRoll>
+  <Speeds>
+    <string>40ft.</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>bludgeoning from nonmagical attacks that aren’t silvered</string>
+    <string>piercing from nonmagical attacks that aren’t silvered</string>
+    <string>slashing from nonmagical attacks that aren’t silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>cold</string>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 60 ft.</string>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Infernal</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>14</CR>
+  <XP>11500</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Devil’s Sight</Name>
+      <Text>Magical darkness doesn’t impede the devil’s darkvision.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The devil has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The devil makes three attacks: one with its bite, one with its claws, and one with its tail.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) piercing damage plus 10 (3d6) cold damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>2d6+5+3d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 10 (2d4 + 5) slashing damage plus 10 (3d6) cold damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>2d4+5+3d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tail</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 10 (3d6) cold damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>2d6+5+3d6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Wall of Ice (Recharge 6)</Name>
+      <Text>The devil magically forms an opaque wall of ice on a solid surface it can see within 60 feet of it. The wall is 1 foot thick and up to 30 feet long and 10 feet high, or it’s a hemispherical dome up to 20 feet in diameter.
+When the wall appears, each creature in its space is pushed out of it by the shortest route. The creature chooses which side of the wall to end up on, unless the creature is incapacitated. The creature then makes a DC 17 Dexterity saving throw, taking 35 (10d6) cold damage on a failed save, or half as much damage on a successful one.
+The wall lasts for 1 minute or until the devil is incapacitated or dies. The wall can be damaged and breached; each 10-foot section has AC 5, 30 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage. If a section is destroyed, it leaves behind a sheet of frigid air in the space the wall occupied. Whenever a creature finishes moving through the frigid air on a turn, willingly or otherwise, the creature must make a DC 17 Constitution saving throw, taking 17 (5d6) cold damage on a failed save, or half as much damage on a successful one. The frigid air dissipates when the rest of the wall vanishes.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

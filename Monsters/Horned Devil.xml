@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Horned Devil</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>178</HP>
+  <HPRoll>17d10+85</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>21</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>17</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>bludgeoning from nonmagical attacks that aren’t silvered</string>
+    <string>piercing from nonmagical attacks that aren’t silvered</string>
+    <string>slashing from nonmagical attacks that aren’t silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Infernal</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Devil’s Sight</Name>
+      <Text>Magical darkness doesn’t impede the devil’s darkvision.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The devil has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The devil makes three melee attacks: two with its fork and one with its tail. It can use Hurl Flame in place of any melee attack.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Fork</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>2d8+6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tail</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 10 (1d8 + 6) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 17 Constitution saving throw or lose 10 (3d6) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 10 (3d6). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>1d8+6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Hurl Flame</Name>
+      <Text>Ranged Spell Attack: +7 to hit, range 150 ft., one target. Hit: 14 (4d6) fire damage. If the target is a flammable object that isn’t being worn or carried, it also catches fire.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>4d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

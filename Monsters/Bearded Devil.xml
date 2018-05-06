@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Bearded Devil</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>52</HP>
+  <HPRoll>8d8+16</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>9</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>bludgeoning from nonmagical attacks that aren’t silvered</string>
+    <string>piercing from nonmagical attacks that aren’t silvered</string>
+    <string>slashing from nonmagical attacks that aren’t silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Infernal</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Devil’s Sight</Name>
+      <Text>Magical darkness doesn’t impede the devil’s darkvision.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The devil has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Steadfast</Name>
+      <Text>The devil can’t be frightened while it can see an allied creature within 30 feet of it.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The devil makes two attacks: one with its beard and one with its glaive.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Beard</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target can’t regain hit points. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8+2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Glaive</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) slashing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d10+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Strength</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

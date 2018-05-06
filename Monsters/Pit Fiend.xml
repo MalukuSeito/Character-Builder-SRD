@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Pit Fiend</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>19</AC>
+  <ACText>natural armor</ACText>
+  <HP>300</HP>
+  <HPRoll>24d10+168</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>26</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>24</Constitution>
+  <Intelligence>22</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>24</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>bludgeoning from nonmagical attacks that aren’t silvered</string>
+    <string>piercing from nonmagical attacks that aren’t silvered</string>
+    <string>slashing from nonmagical attacks that aren’t silvered</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Infernal</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>20</CR>
+  <XP>25000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Fear Aura</Name>
+      <Text>Any creature hostile to the pit fiend that starts its turn within 20 feet of the pit fiend must make a DC 21 Wisdom saving throw, unless the pit fiend is incapacitated. On a failed save, the creature is frightened until the start of its next turn. If a creature’s saving throw is successful, the creature is immune to the pit fiend’s Fear Aura for the next 24 hours.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The pit fiend has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The pit fiend’s weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The pit fiend’s spellcasting ability is Charisma (spell save DC 21). The pit fiend can innately cast the following spells, requiring no material components:
+At will: detect magic, fireball
+3/day each: hold monster, wall of fire</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The pit fiend makes four attacks: one with its bite, one with its claw, one with its mace, and one with its tail.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 22 (4d6 + 8) piercing damage. The target must succeed on a DC 21 Constitution saving throw or become poisoned. While poisoned in this way, the target can’t regain hit points, and it takes 21 (6d6) poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+      <AttackBonus>14</AttackBonus>
+      <Damage>4d6+8</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 17 (2d8 + 8) slashing damage.</Text>
+      <AttackBonus>14</AttackBonus>
+      <Damage>2d8+8</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Mace</Name>
+      <Text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) bludgeoning damage plus 21 (6d6) fire damage.</Text>
+      <AttackBonus>14</AttackBonus>
+      <Damage>2d6+8+6d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tail</Name>
+      <Text>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 24 (3d10 + 8) bludgeoning damage.</Text>
+      <AttackBonus>14</AttackBonus>
+      <Damage>3d10+8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells>
+    <string>Detect Magic</string>
+    <string>Fireball</string>
+    <string>Hold Monster</string>
+    <string>Wall of Fire</string>
+  </Spells>
+  <Slots />
+</Monster>

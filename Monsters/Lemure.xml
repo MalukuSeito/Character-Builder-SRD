@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Lemure</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+    <Keyword>
+      <Name>devil</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>7</AC>
+  <HP>13</HP>
+  <HPRoll>3d8</HPRoll>
+  <Speeds>
+    <string>15 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>5</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>3</Charisma>
+  <Resistances>
+    <string>cold</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Infernal but can’t speak</string>
+  </Languages>
+  <CR>0</CR>
+  <XP>10</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Devil’s Sight</Name>
+      <Text>Magical darkness doesn’t impede the lemure’s darkvision.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Hellish Rejuvenation</Name>
+      <Text>A lemure that dies in the Nine Hells comes back to life with all its hit points in 1d10 days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Fist</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>
