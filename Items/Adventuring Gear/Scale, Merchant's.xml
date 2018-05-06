@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords />
+  <StackSize>1</StackSize>
+  <Name>Scale, Merchant's</Name>
+  <Description>A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>5</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>3</Weight>
+</Item>

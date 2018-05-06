@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Intelligence score increases by 1, and your Charisma score increases by 2.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>1</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>2</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Tieflings mature at the same rate as humans but live a few years longer.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Tieflings might not have an innate tendency toward evil, but many of them end up there.
+Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Tieflings are about the same size and build as humans.
+Your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Darkvision</Name>
+      <Text>Thanks to your infernal heritage, you have superior vision in dark and dim conditions.
+You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light.
+You can’t discern color in darkness, only shades of gray.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Range>60</Range>
+    </VisionFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Hellish Resistance</Name>
+      <Text>You have resistance to fire damage.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>fire</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Infernal Legacy</Name>
+      <Text>You know the thaumaturgy cantrip.
+Charisma is your spellcasting ability for these spells.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>thaumaturgy</Spell>
+      <SpellCastingAbility>Charisma</SpellCastingAbility>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Infernal Legacy</Name>
+      <Text>When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest.
+Charisma is your spellcasting ability for these spells.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>hellish rebuke</Spell>
+      <SpellCastingAbility>Charisma</SpellCastingAbility>
+      <SpellCastModifier>LongRest</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Infernal Legacy</Name>
+      <Text>When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest.
+Charisma is your spellcasting ability for these spells.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite />
+      <Spell>darkness</Spell>
+      <SpellCastingAbility>Charisma</SpellCastingAbility>
+      <SpellCastModifier>LongRest</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common and Infernal.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+        <string>Infernal</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Name>Tiefling</Name>
+  <Size>Medium</Size>
+  <Descriptions>
+    <Description>
+      <Name>Tiefling Traits</Name>
+      <Text>Tieflings share certain racial traits as a result of their infernal descent.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Systems Reference Document v5.1</Source>
+</Race>

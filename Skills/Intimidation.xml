@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Intimidation</Name>
+  <Description>When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.</Description>
+  <Base>Charisma</Base>
+  <Source>Systems Reference Document v5.1</Source>
+</Skill>

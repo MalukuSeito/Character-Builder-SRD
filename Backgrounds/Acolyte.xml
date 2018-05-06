@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Background xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Acolyte</Name>
+  <Description>You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric—performing sacred rites is not the same thing as channeling divine power.
+Choose a god, a pantheon of gods, or some other quasi-divine being from among those listed in "Fantasy-Historical Pantheons" or those specified by your GM, and work with your GM to detail the nature of your religious service. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Suggested Characteristics</Name>
+      <Text>Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.</Text>
+    </Description>
+  </Descriptions>
+  <Features>
+    <SkillProficiencyFeature>
+      <Keywords />
+      <Name>Skill Proficiencies</Name>
+      <Text>Insight, Religion</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Insight</string>
+        <string>Religion</string>
+      </Skills>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+    </SkillProficiencyFeature>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>Two of your choice</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Amount>2</Amount>
+      <UniqueID>ACOLYTE_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+    <ItemChoiceConditionFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>A holy symbol (a gift to you when you entered the priesthood)</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>ACOLYTE_FOCUS</UniqueID>
+      <Condition>Divine and Focus</Condition>
+    </ItemChoiceConditionFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>A prayer book or prayer wheel</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>prayer book</string>
+        <string>prayer wheel</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>ACOLYTE_EQUIPMENT1</UniqueID>
+    </ItemChoiceFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>5 sticks of incense, vestments, a set of common clothes, and a pouch containing 15 gp</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Incense</string>
+        <string>Incense</string>
+        <string>Incense</string>
+        <string>Incense</string>
+        <string>Incense</string>
+        <string>Clothes, Common</string>
+        <string>Vestments</string>
+        <string>Pouch</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>15</GP>
+    </FreeItemAndGoldFeature>
+    <Feature>
+      <Keywords />
+      <Name>Shelter of the Faithful</Name>
+      <Text>As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle. 
+You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <PersonalityTrait>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Text>I idolize a particular hero of my faith, and constantly refer to that person’s deeds and example.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Text>I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Text>I see omens in every event and action. The gods try to speak to us, we just need to listen</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Text>Nothing can shake my optimistic attitude.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Text>I quote (or misquote) sacred texts and proverbs in almost every situation.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Text>I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>7</MinRoll>
+      <MaxRoll>7</MaxRoll>
+      <Text>I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>8</MinRoll>
+      <MaxRoll>8</MaxRoll>
+      <Text>I’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.</Text>
+    </TableEntry>
+  </PersonalityTrait>
+  <Ideal>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Title>Tradition</Title>
+      <Text>The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Title>Charity</Title>
+      <Text>I always try to help those in need, no matter what the personal cost. (Good)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Title>Change</Title>
+      <Text>We must help bring about the changes the gods are constantly working in the world. (Chaotic)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Title>Power</Title>
+      <Text>I hope to one day rise to the top of my faith’s religious hierarchy. (Lawful)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Title>Faith</Title>
+      <Text>I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Title>Aspiration</Title>
+      <Text>I seek to prove myself worthy of my god’s favor by matching my actions against his or her teachings. (Any)</Text>
+    </TableEntry>
+  </Ideal>
+  <Bond>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Text>I would die to recover an ancient relic of my faith that was lost long ago.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Text>I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Text>I owe my life to the priest who took me in when my parents died.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Text>Everything I do is for the common people.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Text>I will do anything to protect the temple where I served.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Text>I seek to preserve a sacred text that my enemies consider heretical and seek to destroy.</Text>
+    </TableEntry>
+  </Bond>
+  <Flaw>
+    <TableEntry>
+      <MinRoll>1</MinRoll>
+      <MaxRoll>1</MaxRoll>
+      <Text>I judge others harshly, and myself even more severely.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>2</MinRoll>
+      <MaxRoll>2</MaxRoll>
+      <Text>I put too much trust in those who wield power within my temple’s hierarchy.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>3</MinRoll>
+      <MaxRoll>3</MaxRoll>
+      <Text>My piety sometimes leads me to blindly trust those that profess faith in my god.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>4</MinRoll>
+      <MaxRoll>4</MaxRoll>
+      <Text>I am inflexible in my thinking.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>5</MinRoll>
+      <MaxRoll>5</MaxRoll>
+      <Text>I am suspicious of strangers and expect the worst of them.</Text>
+    </TableEntry>
+    <TableEntry>
+      <MinRoll>6</MinRoll>
+      <MaxRoll>6</MaxRoll>
+      <Text>Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.</Text>
+    </TableEntry>
+  </Flaw>
+  <Source>Systems Reference Document v5.1</Source>
+</Background>

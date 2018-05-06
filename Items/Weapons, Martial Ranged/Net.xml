@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Weapon">
+  <Keywords>
+    <Keyword>
+      <Name>special</Name>
+    </Keyword>
+    <Keyword>
+      <Name>thrown</Name>
+    </Keyword>
+    <Range>
+      <Name>range</Name>
+      <Short>5</Short>
+      <Long>15</Long>
+    </Range>
+    <Keyword>
+      <Name>martial</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>net</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Net</Name>
+  <Description>A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>1</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>3</Weight>
+  <Damage />
+  <DamageType />
+</Item>

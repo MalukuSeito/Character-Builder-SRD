@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Spellguard Shield</Name>
+      <Text>While holding this shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </AttunedEquipFeatures>
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Armor (shield)</Requirement>
+  <Name>Spellguard Shield</Name>
+  <Description>While holding this shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you.</Description>
+  <Slot>Wonderous</Slot>
+  <Base>Shield</Base>
+  <Source>Systems Reference Document v5.1</Source>
+  <PostName>of Missile Attraction</PostName>
+  <Rarity>VeryRare</Rarity>
+</MagicProperty>

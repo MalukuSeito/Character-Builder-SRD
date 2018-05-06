@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>abjuration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>cleric</Name>
+    </Keyword>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>holy water or powdered silver and iron</Components>
+    </Material>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>paladin</Name>
+    </Keyword>
+    <Save>
+      <Name>save</Name>
+      <Throw>Charisma</Throw>
+    </Save>
+    <Keyword>
+      <Name>self</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Dispel Evil and Good</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Self</Range>
+  <Duration>Concentration, up to 1 minute</Duration>
+  <Level>5</Level>
+  <Description>Shimmering energy surrounds and protects you from fey, undead, and creatures originating from beyond the Material Plane. For the duration, celestials, elementals, fey, fiends, and undead have disadvantage on attack rolls against you.
+You can end the spell early by using either of the following special functions.</Description>
+  <Descriptions>
+    <Description>
+      <Name>Break Enchantment</Name>
+      <Text>As your action, you touch a creature you can reach that is charmed, frightened, or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer charmed, frightened, or possessed by such creatures.</Text>
+    </Description>
+    <Description>
+      <Name>Dismissal</Name>
+      <Text>As your action, make a melee spell attack against a celestial, an elemental, a fey, a fiend, or an undead you can reach. On a hit, you attempt to drive the creature back to its home plane. The creature must succeed on a Charisma saving throw or be sent back to its home plane (if it isn’t there already). If they aren’t on their home plane, undead are sent to the Shadowfell, and fey are sent to the Feywild.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Systems Reference Document v5.1</Source>
+</Spell>

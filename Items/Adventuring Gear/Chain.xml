@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords />
+  <StackSize>10</StackSize>
+  <Name>Chain</Name>
+  <Description>A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>5</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>10</Weight>
+  <Unit>feet</Unit>
+  <SingleUnit>1 foot</SingleUnit>
+</Item>

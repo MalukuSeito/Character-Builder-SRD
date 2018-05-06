@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Weapon">
+  <Keywords>
+    <Keyword>
+      <Name>reach</Name>
+    </Keyword>
+    <Keyword>
+      <Name>special</Name>
+    </Keyword>
+    <Keyword>
+      <Name>martial</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>piercing</Name>
+    </Keyword>
+    <Keyword>
+      <Name>lance</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Lance</Name>
+  <Description>You have disadvantage when you use a lance to attack a target within 5 feet of you. Also a lance requires two hands to wield when you aren't mounted.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>10</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>6</Weight>
+  <Damage>1d12</Damage>
+  <DamageType>piercing</DamageType>
+</Item>

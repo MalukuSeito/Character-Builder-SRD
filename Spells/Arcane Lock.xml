@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>abjuration</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>gold dust worth at least 25 gp, which the spell consumes</Components>
+    </Material>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>touch</Name>
+    </Keyword>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Arcane Lock</Name>
+  <CastingTime>1 action</CastingTime>
+  <Range>Touch</Range>
+  <Duration>Until dispelled</Duration>
+  <Level>2</Level>
+  <Description>You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes.
+While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.</Description>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+</Spell>

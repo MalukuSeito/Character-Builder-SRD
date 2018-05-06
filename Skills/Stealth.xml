@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Stealth</Name>
+  <Description>Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.</Description>
+  <Base>Dexterity</Base>
+  <Source>Systems Reference Document v5.1</Source>
+</Skill>

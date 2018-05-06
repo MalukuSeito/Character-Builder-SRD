@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Bracers of Archery</Name>
+      <Text>While wearing these bracers, you have proficiency with the longbow and shortbow</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <Prerequisite />
+      <Tools>
+        <string>Longbow</string>
+        <string>Shortbow</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Bracers of Archery</Name>
+      <Text>You gain a +2 bonus to damage rolls on ranged attacks made with longbows or shortbows</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <Prerequisite />
+      <Condition>Weapon and (Name = "longbow" or Name = "shortbow")</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>2</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+    </BonusFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <OnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Bracers of Archery</Name>
+  <Description>While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Systems Reference Document v5.1</Source>
+  <Rarity>Uncommon</Rarity>
+</MagicProperty>

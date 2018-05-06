@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClassDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Expertise</Name>
+      <Text> At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves’ tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Two of your skill proficiencies</Name>
+          <Text>two of your skill proficiencies</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>2</Amount>
+          <ProficiencyMultiplier>2</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>true</OnlyAlreadyKnownSkills>
+          <UniqueID>ROGUE_EXPERTISE1-2</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>One of your skill proficiencies and your proficiency with thieves’ tools</Name>
+          <Text>one of your skill proficiencies and your proficiency with thieves’ tools</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SkillProficiencyChoiceFeature>
+              <Keywords />
+              <Name>One of your skill proficiencies</Name>
+              <Text>one of your skill proficiencies</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Skills />
+              <Amount>1</Amount>
+              <ProficiencyMultiplier>2</ProficiencyMultiplier>
+              <BonusType>AddOnlyIfNotProficient</BonusType>
+              <OnlyAlreadyKnownSkills>true</OnlyAlreadyKnownSkills>
+              <UniqueID>ROGUE_EXPERTISE1-1</UniqueID>
+            </SkillProficiencyChoiceFeature>
+            <Feature>
+              <Keywords />
+              <Name>Expertise</Name>
+              <Text>Your proficiency bonus with thieves' tools is doubled</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+        </MultiFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>ROGUE_EXPERTISE1</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Expertise</Name>
+      <Text>At 6th level, you can choose two more of your proficiencies (in skills or with thieves’ tools) to gain this benefit.</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <SkillProficiencyChoiceFeature>
+          <Keywords />
+          <Name>Two of your skill proficiencies</Name>
+          <Text>two of your skill proficiencies</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Skills />
+          <Amount>2</Amount>
+          <ProficiencyMultiplier>2</ProficiencyMultiplier>
+          <BonusType>AddOnlyIfNotProficient</BonusType>
+          <OnlyAlreadyKnownSkills>true</OnlyAlreadyKnownSkills>
+          <UniqueID>ROGUE_EXPERTISE2-2</UniqueID>
+        </SkillProficiencyChoiceFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>One of your skill proficiencies and your proficiency with thieves’ tools</Name>
+          <Text>one of your skill proficiencies and your proficiency with thieves’ tools</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SkillProficiencyChoiceFeature>
+              <Keywords />
+              <Name>One of your skill proficiencies</Name>
+              <Text>one of your skill proficiencies</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Skills />
+              <Amount>1</Amount>
+              <ProficiencyMultiplier>2</ProficiencyMultiplier>
+              <BonusType>AddOnlyIfNotProficient</BonusType>
+              <OnlyAlreadyKnownSkills>true</OnlyAlreadyKnownSkills>
+              <UniqueID>ROGUE_EXPERTISE2-1</UniqueID>
+            </SkillProficiencyChoiceFeature>
+            <Feature>
+              <Keywords />
+              <Name>Expertise</Name>
+              <Text>Your proficiency bonus with thieves' tools is doubled</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+            </Feature>
+          </Features>
+        </MultiFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>ROGUE_EXPERTISE2</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Sneak Attack</Name>
+      <Text>Beginning at 1st level, you know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+You don’t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.
+The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Sneak Attack</Name>
+      <Text>Sneak Attack increases to 2d6.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Sneak Attack</Name>
+      <Text>Sneak Attack increases to 3d6.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Sneak Attack</Name>
+      <Text>Sneak Attack increases to 4d6.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Sneak Attack</Name>
+      <Text>Sneak Attack increases to 5d6.</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Sneak Attack</Name>
+      <Text>Sneak Attack increases to 6d6.</Text>
+      <Level>11</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Sneak Attack</Name>
+      <Text>Sneak Attack increases to 7d6.</Text>
+      <Level>13</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Sneak Attack</Name>
+      <Text>Sneak Attack increases to 8d6.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Sneak Attack</Name>
+      <Text>Sneak Attack increases to 9d6.</Text>
+      <Level>17</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Sneak Attack</Name>
+      <Text>Sneak Attack increases to 10d6.</Text>
+      <Level>19</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Thieves’ Cant</Name>
+      <Text>During your rogue training you learned thieves’ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves’ cant understands such messages.It takes four times longer to convey such a message than it does to speak the same idea plainly.
+In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves’ guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Thieves’ Cant</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Cunning Action</Name>
+      <Text>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <SubClassFeature>
+      <Keywords />
+      <Name>Roguish Archetype</Name>
+      <Text>At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities: Thief, Assassin, or Arcane Trickster, all detailed at the end of the class description. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ParentClass>Rogue</ParentClass>
+    </SubClassFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name>Ability Score Improvement</Name>
+      <Text>When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ROGUE_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ROGUE_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ROGUE_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>12</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ROGUE_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ROGUE_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>ROGUE_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <Feature>
+      <Keywords />
+      <Name>Uncanny Dodge</Name>
+      <Text>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Evasion</Name>
+      <Text>Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Reliable Talent</Name>
+      <Text>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</Text>
+      <Level>11</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Blindsense</Name>
+      <Text>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SaveProficiencyFeature>
+      <Keywords />
+      <Name>Slippery Mind</Name>
+      <Text>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</Text>
+      <Level>15</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Ability>Wisdom</Ability>
+    </SaveProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Elusive</Name>
+      <Text>Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren’t incapacitated.</Text>
+      <Level>18</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Stroke of Luck</Name>
+      <Text>At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.
+Once you use this feature, you can’t use it again until you finish a short or long rest.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>ROGUE_STROKE_OF_LUCK</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </Features>
+  <MulticlassingSpellLevels />
+  <MulticlassingFeatures>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Multiclassing Proficiency: Tools</Name>
+      <Text>Thieves’ tools</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Thieves’ tools</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Multiclassing Proficiency: Armor</Name>
+      <Text>Light armor</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Armor and Light</Condition>
+      <Description>Light armor</Description>
+    </ToolKWProficiencyFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Multiclassing Proficiency: Skills</Name>
+      <Text>Choose one from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Acrobatics</string>
+        <string>Athletics</string>
+        <string>Deception</string>
+        <string>Insight</string>
+        <string>Intimidation</string>
+        <string>Investigation</string>
+        <string>Perception</string>
+        <string>Performance</string>
+        <string>Sleight of Hand</string>
+        <string>Stealth</string>
+      </Skills>
+      <Amount>1</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>ROGUE_MULTICLASS_SKILLS</UniqueID>
+    </SkillProficiencyChoiceFeature>
+  </MulticlassingFeatures>
+  <FirstClassFeatures>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Armor</Name>
+      <Text>Light armor</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Armor and Light</Condition>
+      <Description>Light armor</Description>
+    </ToolKWProficiencyFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Weapons</Name>
+      <Text>Simple weapons</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Weapon and Simple</Condition>
+      <Description>Simple weapons</Description>
+    </ToolKWProficiencyFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Weapons</Name>
+      <Text>Hand crossbows, longswords, rapiers, shortswords</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Hand crossbow</string>
+        <string>Longsword</string>
+        <string>Rapier</string>
+        <string>Shortsword</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Tools</Name>
+      <Text>Thieves’ tools</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Tools>
+        <string>Thieves’ tools</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <SaveProficiencyFeature>
+      <Keywords />
+      <Name>Saving Throws</Name>
+      <Text>Dexterity, Intelligence</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Ability>Dexterity Intelligence</Ability>
+    </SaveProficiencyFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Skills</Name>
+      <Text>Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Acrobatics</string>
+        <string>Athletics</string>
+        <string>Deception</string>
+        <string>Insight</string>
+        <string>Intimidation</string>
+        <string>Investigation</string>
+        <string>Perception</string>
+        <string>Performance</string>
+        <string>Sleight of Hand</string>
+        <string>Stealth</string>
+        <string>Persuasion</string>
+      </Skills>
+      <Amount>4</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>ROGUE_SKILLS</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a rapier or (b) a shortsword</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Rapier</string>
+        <string>Shortsword</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>ROGUE_EQUIP1</UniqueID>
+    </ItemChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a shortbow and quiver of 20 arrows or (b) a shortsword</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <FreeItemAndGoldFeature>
+          <Keywords />
+          <Name>A shortbow and quiver of 20 arrows</Name>
+          <Text>a shortbow and quiver of 20 arrows</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Items>
+            <string>Arrow</string>
+            <string>Shortbow</string>
+          </Items>
+          <CP>0</CP>
+          <SP>0</SP>
+          <GP>0</GP>
+        </FreeItemAndGoldFeature>
+        <FreeItemAndGoldFeature>
+          <Keywords />
+          <Name>A shortsword</Name>
+          <Text>a shortsword</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Items>
+            <string>Shortsword</string>
+          </Items>
+          <CP>0</CP>
+          <SP>0</SP>
+          <GP>0</GP>
+        </FreeItemAndGoldFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>ROGUE_EQUIP2</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a burglar’s pack, (b) a dungeoneer’s pack, or (c) an explorer’s pack</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Burglar’s pack</string>
+        <string>Dungeoneer’s pack</string>
+        <string>Explorer’s pack</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>ROGUE_EQUIP3</UniqueID>
+    </ItemChoiceFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>Leather armor, two daggers, and thieves’ tools</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Dagger</string>
+        <string>Dagger</string>
+        <string>Thieves’ tools</string>
+        <string>Leather</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+  </FirstClassFeatures>
+  <MulticlassingAbilityScores>None</MulticlassingAbilityScores>
+  <FeaturesToAddClassKeywordTo />
+  <SpellsToAddClassKeywordTo />
+  <Name>Rogue</Name>
+  <Description />
+  <Flavour />
+  <Descriptions>
+    <Description>
+      <Name>Class Features</Name>
+      <Text>As a rogue, you have the following class features</Text>
+    </Description>
+  </Descriptions>
+  <HitDie>8</HitDie>
+  <HitDieCount>1</HitDieCount>
+  <HPFirstLevel>8</HPFirstLevel>
+  <AverageHPPerLevel>5</AverageHPPerLevel>
+  <AvailableAtFirstLevel>true</AvailableAtFirstLevel>
+  <Source>Systems Reference Document v5.1</Source>
+  <MulticlassingCondition>Dexterity &gt;= 13</MulticlassingCondition>
+</ClassDefinition>

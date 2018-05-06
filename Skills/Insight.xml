@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Insight</Name>
+  <Description>Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone’s next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.</Description>
+  <Base>Wisdom</Base>
+  <Source>Systems Reference Document v5.1</Source>
+</Skill>

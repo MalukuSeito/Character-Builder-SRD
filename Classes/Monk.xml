@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClassDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ACFeature>
+      <Keywords />
+      <Name>Unarmored Defense</Name>
+      <Text>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Expression>if(!Armor and !Shield, 10 + DexMod + WisMod, 0)</Expression>
+    </ACFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name>Martial Arts</Name>
+      <Text>At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don’t have the twohanded or heavy property.
+You gain the following benefits while you are unarmed or wielding only monk weapons and you aren’t wearing armor or wielding a shield: 
+• You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.
+• You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon.
+This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.
+• When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven’t already taken a bonus action this turn.
+Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama).
+Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(unarmed or simple or Name = 'shortsword') and melee and !Two_Handed and !Shield and !Heavy</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <ACBonus>0</ACBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>or Matrial Arts Die</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>Dexterity</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+    <Feature>
+      <Keywords />
+      <Name>Martial Arts</Name>
+      <Text>When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven’t already taken a bonus action this turn.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Martial Arts</Name>
+      <Text>Your Martial Arts Die is now 1d6</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Martial Arts</Name>
+      <Text>Your Martial Arts Die is now 1d8</Text>
+      <Level>11</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Martial Arts</Name>
+      <Text>Your Martial Arts Die is now 1d10</Text>
+      <Level>17</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Ki</Name>
+      <Text>Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level determines the number of points you have, as shown in the Ki Points column of the Monk table. (Exactly one per level)
+You can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class.
+When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.
+Some of your ki features require your target to make a saving throw to resist the feature’s effects. The saving throw DC is calculated as follows: 
+Ki save DC = 8 + your proficiency bonus + your Wisdom modifier</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>ClassLevel</Value>
+      <ResourceID>MONK_KI</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Flurry of Blows</Name>
+      <Text>Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Patient Defense</Name>
+      <Text>You can spend 1 ki point to take the Dodge action as a bonus action on your turn.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Step of the Wind</Name>
+      <Text>You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Unarmored Movement</Name>
+      <Text>Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk table.
+At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>0</BaseSpeed>
+      <ExtraSpeed>10</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>Unarmored and !Shield</Condition>
+    </SpeedFeature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Unarmored Movement</Name>
+      <Text>+15 ft</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>0</BaseSpeed>
+      <ExtraSpeed>5</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>Unarmored and !Shield</Condition>
+    </SpeedFeature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Unarmored Movement</Name>
+      <Text>+20 ft</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>0</BaseSpeed>
+      <ExtraSpeed>5</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>Unarmored and !Shield</Condition>
+    </SpeedFeature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Unarmored Movement</Name>
+      <Text>+25 ft</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>0</BaseSpeed>
+      <ExtraSpeed>5</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>Unarmored and !Shield</Condition>
+    </SpeedFeature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Unarmored Movement</Name>
+      <Text>+30 ft</Text>
+      <Level>18</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>0</BaseSpeed>
+      <ExtraSpeed>5</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>Unarmored and !Shield</Condition>
+    </SpeedFeature>
+    <SubClassFeature>
+      <Keywords />
+      <Name>Monastic Tradition</Name>
+      <Text>When you reach 3rd level, you commit yourself to a monastic tradition: the Way of the Open Hand, the Way of Shadow, or the Way of the Four Elements, all detailed at the end of the class description. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ParentClass>Monk</ParentClass>
+    </SubClassFeature>
+    <Feature>
+      <Keywords />
+      <Name>Deflect Missiles</Name>
+      <Text>Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack.When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your monk level.
+If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack, which has a normal range of 20 feet and a long range of 60 feet.</Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name>Ability Score Improvement</Name>
+      <Text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature. </Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>MONK_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>MONK_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>12</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>MONK_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>MONK_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>MONK_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <Feature>
+      <Keywords />
+      <Name>Slow Fall</Name>
+      <Text>Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.</Text>
+      <Level>4</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Reaction</Action>
+      <Prerequisite />
+    </Feature>
+    <ExtraAttackFeature>
+      <Keywords />
+      <Name>Extra Attack</Name>
+      <Text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ExtraAttacks>1</ExtraAttacks>
+    </ExtraAttackFeature>
+    <Feature>
+      <Keywords />
+      <Name>Stunning Strike</Name>
+      <Text>Starting at 5th level, you can interfere with the flow of ki in an opponent’s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Ki-Empowered Strikes</Name>
+      <Text>Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Evasion</Name>
+      <Text>At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon’s lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Stillness of Mind</Name>
+      <Text>Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened.</Text>
+      <Level>7</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Purity of Body</Name>
+      <Text>At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Tongue of the Sun and Moon</Name>
+      <Text>Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.</Text>
+      <Level>13</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SaveProficiencyFeature>
+      <Keywords />
+      <Name>Diamond Soul</Name>
+      <Text>Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.
+Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.</Text>
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Ability>Strength Constitution Dexterity Intelligence Wisdom Charisma</Ability>
+    </SaveProficiencyFeature>
+    <Feature>
+      <Keywords />
+      <Name>Timeless Body</Name>
+      <Text> At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can’t be aged magically. You can still die of old age, however. In addition, you no longer need food or water.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Empty Body</Name>
+      <Text>Beginning at 18th level, you can use your action to spend 4 ki points to become invisible for 1 minute.During that time, you also have resistance to all damage but force damage.
+Additionally, you can spend 8 ki points to cast the astral projection spell, without needing material components. When you do so, you can’t take any other creatures with you.</Text>
+      <Level>18</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Perfect Self</Name>
+      <Text>At 20th level, when you roll for initiative and have no ki points remaining, you regain 4 ki points.</Text>
+      <Level>20</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingSpellLevels />
+  <MulticlassingFeatures>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Multiclassing Proficiencies</Name>
+      <Text>Simple Weapons, shortswords</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(Weapon and Simple) or Name = 'shortsword'</Condition>
+      <Description>Simple Weapons, shortswords</Description>
+    </ToolKWProficiencyFeature>
+  </MulticlassingFeatures>
+  <FirstClassFeatures>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Weapons</Name>
+      <Text>Simple Weapons, shortswords</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(Weapon and Simple) or Name = 'shortsword'</Condition>
+      <Description>Simple Weapons, shortswords</Description>
+    </ToolKWProficiencyFeature>
+    <ToolProficiencyChoiceConditionFeature>
+      <Keywords />
+      <Name>Tools</Name>
+      <Text>Choose one type of artisan’s tools or one musical instrument</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>MONK_TOOL</UniqueID>
+      <Condition>Artisan or Instrument</Condition>
+    </ToolProficiencyChoiceConditionFeature>
+    <SaveProficiencyFeature>
+      <Keywords />
+      <Name>Saving Throws</Name>
+      <Text>Strength, Dexterity</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Ability>Strength Dexterity</Ability>
+    </SaveProficiencyFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Skills</Name>
+      <Text>Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Acrobatics</string>
+        <string>Athletics</string>
+        <string>History</string>
+        <string>Insight</string>
+        <string>Religion</string>
+        <string>Stealth</string>
+      </Skills>
+      <Amount>2</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>MONK_SKILL</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <ItemChoiceConditionFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a shortsword or (b) any simple weapon</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>MONK_WEAPON</UniqueID>
+      <Condition>(Weapon and Simple) or Name = 'shortsword'</Condition>
+    </ItemChoiceConditionFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a dungeoneer’s pack or (b) an explorer’s pack</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>dungeoneer’s pack</string>
+        <string>explorer’s pack</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>MONK_PACK</UniqueID>
+    </ItemChoiceFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>10 darts</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Dart</string>
+        <string>Dart</string>
+        <string>Dart</string>
+        <string>Dart</string>
+        <string>Dart</string>
+        <string>Dart</string>
+        <string>Dart</string>
+        <string>Dart</string>
+        <string>Dart</string>
+        <string>Dart</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+  </FirstClassFeatures>
+  <MulticlassingAbilityScores>None</MulticlassingAbilityScores>
+  <FeaturesToAddClassKeywordTo />
+  <SpellsToAddClassKeywordTo />
+  <Name>Monk</Name>
+  <Description />
+  <Flavour />
+  <Descriptions>
+    <Description>
+      <Name>Class Features</Name>
+      <Text>As a monk, you gain the following class features.</Text>
+    </Description>
+  </Descriptions>
+  <HitDie>8</HitDie>
+  <HitDieCount>1</HitDieCount>
+  <HPFirstLevel>8</HPFirstLevel>
+  <AverageHPPerLevel>5</AverageHPPerLevel>
+  <AvailableAtFirstLevel>true</AvailableAtFirstLevel>
+  <Source>Systems Reference Document v5.1</Source>
+  <MulticlassingCondition>Dexterity &gt;= 13 and Wisdom &gt;= 13</MulticlassingCondition>
+</ClassDefinition>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>druid</Name>
+        </Keyword>
+        <Keyword>
+          <Name>land</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Swamp</Name>
+      <Text>Circle of the Swamp</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>acid arrow, darkness</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>acid arrow</string>
+            <string>darkness</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>water walk, stinking cloud</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>water walk</string>
+            <string>stinking cloud</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>freedom of movement, locate creature</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>freedom of movement</string>
+            <string>locate creature</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>insect plague, scrying</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>insect plague</string>
+            <string>scrying</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Systems Reference Document v5.1</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Systems Reference Document v5.1</Source>
+</FeatureContainer>

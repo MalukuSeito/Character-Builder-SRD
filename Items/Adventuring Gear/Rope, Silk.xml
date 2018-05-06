@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords />
+  <StackSize>50</StackSize>
+  <Name>Rope, Silk</Name>
+  <Description>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>10</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>5</Weight>
+  <Unit>feet</Unit>
+  <SingleUnit>1 foot</SingleUnit>
+</Item>

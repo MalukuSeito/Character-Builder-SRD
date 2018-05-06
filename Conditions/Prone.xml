@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Prone</Name>
+  <Description>• A prone creature’s only movement option is to crawl, unless it stands up and thereby ends the condition.
+• The creature has disadvantage on attack rolls.
+• An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</Description>
+  <Source>Systems Reference Document v5.1</Source>
+</Condition>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Invisible</Name>
+  <Description>• An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature’s location can be detected by any noise it makes or any tracks it leaves.
+• Attack rolls against the creature have disadvantage, and the creature’s attack rolls have advantage.</Description>
+  <Source>Systems Reference Document v5.1</Source>
+</Condition>

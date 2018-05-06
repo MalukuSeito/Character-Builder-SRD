@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Visions of Distant Realms</Name>
+      <Text>You can cast arcane eye at will, without expending a spell slot.</Text>
+      <Level>15</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Default</Action>
+      <Prerequisite>15th level</Prerequisite>
+      <Spell>Arcane Eye</Spell>
+      <SpellCastingAbility>Charisma</SpellCastingAbility>
+      <SpellCastModifier>AtWill</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+  </Features>
+  <Source>Systems Reference Document v5.1</Source>
+</FeatureContainer>

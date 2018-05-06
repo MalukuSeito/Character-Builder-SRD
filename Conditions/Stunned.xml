@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Stunned</Name>
+  <Description>• A stunned creature is incapacitated (see the condition), can’t move, and can speak only falteringly.
+• The creature automatically fails Strength and Dexterity saving throws.
+• Attack rolls against the creature have advantage.</Description>
+  <Source>Systems Reference Document v5.1</Source>
+</Condition>

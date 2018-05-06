@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Bead of Curing</Name>
+      <Text>The bead contains the cure wounds spell at 2nd level or the lesser restoration spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <Prerequisite />
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Bead of Curing</Name>
+          <Text>The bead contains the cure wounds spell at 2nd level or the lesser restoration spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.</Text>
+          <Level>0</Level>
+          <Hidden>false</Hidden>
+          <Prerequisite />
+          <Spell>Lesser Restoration</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>Dawn</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>0</Level>
+          <Hidden>true</Hidden>
+          <Prerequisite />
+          <Spell>Cure Wounds</Spell>
+          <SpellCastingAbility>None</SpellCastingAbility>
+          <SpellCastModifier>Dawn</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+      </Features>
+    </MultiFeature>
+  </Features>
+  <Source>Systems Reference Document v5.1</Source>
+</FeatureContainer>

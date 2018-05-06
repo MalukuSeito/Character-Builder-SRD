@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClassDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SubClassFeature>
+      <Keywords />
+      <Name>Otherwordly Patron</Name>
+      <Text>At 1st level, you have struck a bargain with an otherworldly being of your choice: the Archfey, the Fiend, or the Great Old One, each of which is detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ParentClass>Warlock</ParentClass>
+    </SubClassFeature>
+    <SpellcastingFeature>
+      <Keywords />
+      <Name>Pact Magic</Name>
+      <Text>Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the warlock spell list.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Preparation>LearnSpells</Preparation>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+      <PrepareableSpells>false</PrepareableSpells>
+      <OverwrittenByMulticlassing>false</OverwrittenByMulticlassing>
+      <IgnoreMulticlassing>true</IgnoreMulticlassing>
+      <DisplayName>Warlock</DisplayName>
+      <PrepareCountAdditionalModifier>None</PrepareCountAdditionalModifier>
+      <SpellcastingAbility>Charisma</SpellcastingAbility>
+      <PrepareCountPerClassLevel>0</PrepareCountPerClassLevel>
+      <PrepareCountAdditional>0</PrepareCountAdditional>
+      <PreparationChange>LongRest</PreparationChange>
+    </SpellcastingFeature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Cantrips</Name>
+      <Text>You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Warlock and Cantrip</AvailableSpellChoices>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+      <UniqueID>WARLOCK_CANTRIP</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>2</Amount>
+    </SpellChoiceFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Cantrips</Name>
+      <Text>3</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_CANTRIP</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Cantrips</Name>
+      <Text>4</Text>
+      <Level>10</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_CANTRIP</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell Slots</Name>
+      <Text>The Warlock table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
+For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell thunderwave, you must spend one of those slots, and you cast it as a 3rd-level spell.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>1</int>
+      </Slots>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>1st: 2</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>2nd: 2</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>0</int>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>3rd: 2</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>0</int>
+        <int>0</int>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>4th: 2</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>5th: 2</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>5th: 3</Text>
+      <Level>11</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellSlotsFeature>
+      <Keywords />
+      <Name>Spell slots</Name>
+      <Text>5th: 4</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Slots>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </Slots>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+    </SpellSlotsFeature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Spells Known of 1st Level And Higher</Name>
+      <Text>At 1st level, you know two 1st-level spells of your choice from the warlock spell list.
+The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what’s shown in the table’s Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.
+Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Warlock and not Cantrip and Level &lt;= Min(ClassSpellLevel,5)</AvailableSpellChoices>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>2</Amount>
+    </SpellChoiceFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>3</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>4</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>5</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>6</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>7</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>8</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>9</Text>
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>10</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>11</Text>
+      <Level>11</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>12</Text>
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>13</Text>
+      <Level>15</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>14</Text>
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <IncreaseSpellChoiceAmountFeature>
+      <Keywords />
+      <Name>Spells</Name>
+      <Text>15</Text>
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+      <Amount>1</Amount>
+    </IncreaseSpellChoiceAmountFeature>
+    <Feature>
+      <Keywords />
+      <Name>Spellcasting Ability</Name>
+      <Text>Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.
+Spell save DC = 8 + your proficiency bonus + your Charisma modifier 
+Spell attack modifier = your proficiency bonus + your Charisma modifier</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Spellcasting Focus</Name>
+      <Text>You can use an arcane focus as a spellcasting focus for your warlock spells.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Eldritch Invocations</Name>
+      <Text>In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.
+At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.
+Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.</Text>
+      <Level>2</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>2</Amount>
+      <UniqueID>WARLOCK_INVOCATION</UniqueID>
+      <Collection>Category = 'Feats/Invocations'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Eldritch Invocations</Name>
+      <Text>3</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>WARLOCK_INVOCATION</UniqueID>
+      <Collection>Category = 'Feats/Invocations'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Eldritch Invocations</Name>
+      <Text>4</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>WARLOCK_INVOCATION</UniqueID>
+      <Collection>Category = 'Feats/Invocations'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Eldritch Invocations</Name>
+      <Text>5</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>WARLOCK_INVOCATION</UniqueID>
+      <Collection>Category = 'Feats/Invocations'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Eldritch Invocations</Name>
+      <Text>6</Text>
+      <Level>12</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>WARLOCK_INVOCATION</UniqueID>
+      <Collection>Category = 'Feats/Invocations'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Eldritch Invocations</Name>
+      <Text>7</Text>
+      <Level>15</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>WARLOCK_INVOCATION</UniqueID>
+      <Collection>Category = 'Feats/Invocations'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Eldritch Invocations</Name>
+      <Text>8</Text>
+      <Level>18</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>WARLOCK_INVOCATION</UniqueID>
+      <Collection>Category = 'Feats/Invocations'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Pact Boon</Name>
+      <Text>At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features of your choice.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>WARLOCK_PACT_BOON</UniqueID>
+      <Collection>Category = 'Feats/Pact Boons'</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name>Ability Score Improvement</Name>
+      <Text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>12</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>WARLOCK_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <Feature>
+      <Keywords />
+      <Name>Mystic Arcanum</Name>
+      <Text>At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6thlevel spell from the warlock spell list as this arcanum.
+You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.
+At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7thlevel spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest.</Text>
+      <Level>11</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Mystic Arcanum - 6th</Name>
+      <Text />
+      <Level>11</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WARLOCK_ARCANUM6</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Mystic Arcanum - 6th</Name>
+      <Text />
+      <Level>11</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Warlock and Level = 6</AvailableSpellChoices>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+      <UniqueID>WARLOCK_ARCANUM_6</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>1</Amount>
+    </SpellChoiceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Mystic Arcanum - 7th</Name>
+      <Text />
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WARLOCK_ARCANUM7</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Mystic Arcanum - 7th</Name>
+      <Text />
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Warlock and Level = 7</AvailableSpellChoices>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+      <UniqueID>WARLOCK_ARCANUM_7</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>1</Amount>
+    </SpellChoiceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Mystic Arcanum - 8th</Name>
+      <Text />
+      <Level>15</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WARLOCK_ARCANUM8</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Mystic Arcanum - 8th</Name>
+      <Text />
+      <Level>15</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Warlock and Level = 8</AvailableSpellChoices>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+      <UniqueID>WARLOCK_ARCANUM_8</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>1</Amount>
+    </SpellChoiceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Mystic Arcanum - 9th</Name>
+      <Text />
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WARLOCK_ARCANUM9</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Mystic Arcanum - 9th</Name>
+      <Text />
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd />
+      <AvailableSpellChoices>Warlock and Level = 9</AvailableSpellChoices>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+      <UniqueID>WARLOCK_ARCANUM_9</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>1</Amount>
+    </SpellChoiceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Eldritch Master</Name>
+      <Text>At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.</Text>
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WARLOCK_MASTER</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </Features>
+  <MulticlassingSpellLevels />
+  <MulticlassingFeatures>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Armor</Name>
+      <Text>Light armor</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Light and Armor</Condition>
+      <Description>Light armor</Description>
+    </ToolKWProficiencyFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Weapons</Name>
+      <Text>Simple weapons</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Simple and Weapon</Condition>
+      <Description>Simple weapons</Description>
+    </ToolKWProficiencyFeature>
+  </MulticlassingFeatures>
+  <FirstClassFeatures>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Armor</Name>
+      <Text>Light armor</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Light and Armor</Condition>
+      <Description>Light armor</Description>
+    </ToolKWProficiencyFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Weapons</Name>
+      <Text>Simple weapons</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Simple and Weapon</Condition>
+      <Description>Simple weapons</Description>
+    </ToolKWProficiencyFeature>
+    <SaveProficiencyFeature>
+      <Keywords />
+      <Name>Saving Throws</Name>
+      <Text>Wisdom, Charisma</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Ability>Wisdom Charisma</Ability>
+    </SaveProficiencyFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Skills</Name>
+      <Text> Choose two from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Arcana</string>
+        <string>Deception</string>
+        <string>History</string>
+        <string>Intimidation</string>
+        <string>Investigation</string>
+        <string>Nature</string>
+        <string>Religion</string>
+      </Skills>
+      <Amount>2</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>WARLOCK_SKILLS</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a light crossbow and 20 bolts or (b)any simple weapon</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <FreeItemAndGoldFeature>
+          <Keywords />
+          <Name>A light crossbow and 20 bolts</Name>
+          <Text>a light crossbow and 20 bolts</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Items>
+            <string>Crossbow, Light</string>
+            <string>Crossbow Bolts</string>
+          </Items>
+          <CP>0</CP>
+          <SP>0</SP>
+          <GP>0</GP>
+        </FreeItemAndGoldFeature>
+        <ItemChoiceConditionFeature>
+          <Keywords />
+          <Name>A simple weapon</Name>
+          <Text>a simple weapon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>1</Amount>
+          <UniqueID>WARLOCK_EQIUP12</UniqueID>
+          <Condition>Simple and Weapon</Condition>
+        </ItemChoiceConditionFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>WARLOCK_EQUIP1</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ItemChoiceConditionFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text> (a) a component pouch or (b) an arcane focus</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>WARLOCK_EQIUP2</UniqueID>
+      <Condition>(Arcane and Focus) or Name = 'component pouch'</Condition>
+    </ItemChoiceConditionFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a scholar’s pack or (b) a dungeoneer’s pack</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Scholar’s Pack</string>
+        <string>Dungeoneer’s Pack</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>WARLOCK_EQUIP3</UniqueID>
+    </ItemChoiceFeature>
+    <ItemChoiceConditionFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>Any simple weapon</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>WARLOCK_EQIUP3</UniqueID>
+      <Condition>Simple and Weapon</Condition>
+    </ItemChoiceConditionFeature>
+    <FreeItemAndGoldFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>Leather armor, and two daggers</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Leather armor</string>
+        <string>Dagger</string>
+        <string>Dagger</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+    </FreeItemAndGoldFeature>
+  </FirstClassFeatures>
+  <MulticlassingAbilityScores>Charisma</MulticlassingAbilityScores>
+  <FeaturesToAddClassKeywordTo />
+  <SpellsToAddClassKeywordTo />
+  <Name>Warlock</Name>
+  <Description />
+  <Flavour />
+  <Descriptions>
+    <Description>
+      <Name>Class Features</Name>
+      <Text>As a warlock, you gain the following class features.</Text>
+    </Description>
+  </Descriptions>
+  <HitDie>8</HitDie>
+  <HitDieCount>1</HitDieCount>
+  <HPFirstLevel>8</HPFirstLevel>
+  <AverageHPPerLevel>5</AverageHPPerLevel>
+  <AvailableAtFirstLevel>true</AvailableAtFirstLevel>
+  <Source>Systems Reference Document v5.1</Source>
+  <MulticlassingCondition>Charisma &gt;= 13</MulticlassingCondition>
+</ClassDefinition>

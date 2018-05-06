@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name>Ring of Protection</Name>
+      <Text>You gain a +1 bonus to AC and saving throws while wearing this ring.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <Prerequisite />
+      <Condition>true</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <ACBonus>1</ACBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>1</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>Strength Constitution Dexterity Intelligence Wisdom Charisma</SavingThrowAbility>
+    </BonusFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <OnUseFeatures />
+  <Requirement>Ring</Requirement>
+  <Name>Ring of Protection</Name>
+  <Description>You gain a +1 bonus to AC and saving throws while wearing this ring.</Description>
+  <Slot>Ring</Slot>
+  <Source>Systems Reference Document v5.1</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

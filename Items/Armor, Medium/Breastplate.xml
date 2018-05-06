@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Armor">
+  <Keywords>
+    <Keyword>
+      <Name>medium</Name>
+    </Keyword>
+    <Keyword>
+      <Name>breastplate</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Breastplate</Name>
+  <Description>This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer’s vital organs while leaving the wearer relatively unencumbered.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>400</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>20</Weight>
+  <BaseAC>14</BaseAC>
+  <StealthDisadvantage>true</StealthDisadvantage>
+  <StrengthRequired>0</StrengthRequired>
+</Item>

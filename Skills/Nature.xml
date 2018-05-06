@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Nature</Name>
+  <Description>Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.</Description>
+  <Base>Intelligence</Base>
+  <Source>Systems Reference Document v5.1</Source>
+</Skill>

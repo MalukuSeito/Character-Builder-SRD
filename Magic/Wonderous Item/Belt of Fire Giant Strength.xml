@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Belt of Fire Giant Strength</Name>
+      <Text>While wearing this belt, your Strength score changes to 25. If your Strength is already equal to or greater than the belt’s score, the item has no effect on you.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <Modifier>Set</Modifier>
+      <Strength>25</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <OnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Belt of Fire Giant Strength</Name>
+  <Description>While wearing this belt, your Strength score changes to a score granted by the belt. If your Strength is already equal to or greater than the belt’s score, the item has no effect on you.
+Six varieties of this belt exist, corresponding with and having rarity according to the six kinds of true giants. The belt of stone giant strength and the belt of frost giant strength look different, but they have the same effect.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Systems Reference Document v5.1</Source>
+  <Rarity>VeryRare</Rarity>
+</MagicProperty>

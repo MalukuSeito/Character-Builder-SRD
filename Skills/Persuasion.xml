@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Persuasion</Name>
+  <Description>When you attempt to influence someone or a group of people with tact, Social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette.
+Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.</Description>
+  <Base>Charisma</Base>
+  <Source>Systems Reference Document v5.1</Source>
+</Skill>

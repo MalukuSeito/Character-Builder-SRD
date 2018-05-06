@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Dagon Ancestor</Name>
+      <Text>You can speak, read, and write Draconic.
+Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Draconic</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Dragon Ancestor</Name>
+      <Text>At 1st level, you choose one type of dragon as your ancestor.
+The damage type associated with each dragon is used by features you gain later.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <MultiFeature>
+          <Keywords />
+          <Name>Black Dragon Ancestor</Name>
+          <Text>Damage type: Acid</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SpellModifyFeature>
+              <Keywords />
+              <Name>Elemental Affinity</Name>
+              <Text>Starting at 6th level, when you cast a spell that deals acid damage, you can add your Charisma modifier to one damage roll of that spell.
+At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</Text>
+              <Level>6</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Spells>Acid</Spells>
+            </SpellModifyFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Blue Dragon Ancestor</Name>
+          <Text>Damage type: Lightning</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SpellModifyFeature>
+              <Keywords />
+              <Name>Elemental Affinity</Name>
+              <Text>Starting at 6th level, when you cast a spell that deals lightning damage, you can add your Charisma modifier to one damage roll of that spell.
+At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</Text>
+              <Level>6</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Spells>Lightning</Spells>
+            </SpellModifyFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Brass Dragon Ancestor</Name>
+          <Text>Damage type: Fire</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SpellModifyFeature>
+              <Keywords />
+              <Name>Elemental Affinity</Name>
+              <Text>Starting at 6th level, when you cast a spell that deals fire damage, you can add your Charisma modifier to one damage roll of that spell.
+At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</Text>
+              <Level>6</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Spells>Fire</Spells>
+            </SpellModifyFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Bronze Dragon Ancestor</Name>
+          <Text>Damage type: Lightning</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SpellModifyFeature>
+              <Keywords />
+              <Name>Elemental Affinity</Name>
+              <Text>Starting at 6th level, when you cast a spell that deals lightning damage, you can add your Charisma modifier to one damage roll of that spell.
+At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</Text>
+              <Level>6</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Spells>Lightning</Spells>
+            </SpellModifyFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Copper Dragon Ancestor</Name>
+          <Text>Damage type: Acid</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SpellModifyFeature>
+              <Keywords />
+              <Name>Elemental Affinity</Name>
+              <Text>Starting at 6th level, when you cast a spell that deals acid damage, you can add your Charisma modifier to one damage roll of that spell.
+At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</Text>
+              <Level>6</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Spells>Acid</Spells>
+            </SpellModifyFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Gold Dragon Ancestor</Name>
+          <Text>Damage type: Fire</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SpellModifyFeature>
+              <Keywords />
+              <Name>Elemental Affinity</Name>
+              <Text>Starting at 6th level, when you cast a spell that deals fire damage, you can add your Charisma modifier to one damage roll of that spell.
+At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</Text>
+              <Level>6</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Spells>Fire</Spells>
+            </SpellModifyFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Green Dragon Ancestor</Name>
+          <Text>Damage type: Poison</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SpellModifyFeature>
+              <Keywords />
+              <Name>Elemental Affinity</Name>
+              <Text>Starting at 6th level, when you cast a spell that deals poison damage, you can add your Charisma modifier to one damage roll of that spell.
+At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</Text>
+              <Level>6</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Spells>Poison</Spells>
+            </SpellModifyFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Red Dragon Ancestor</Name>
+          <Text>Damage type: Fire</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SpellModifyFeature>
+              <Keywords />
+              <Name>Elemental Affinity</Name>
+              <Text>Starting at 6th level, when you cast a spell that deals fire damage, you can add your Charisma modifier to one damage roll of that spell.
+At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</Text>
+              <Level>6</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Spells>Fire</Spells>
+            </SpellModifyFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Silver Dragon Ancestor</Name>
+          <Text>Damage type: Cold</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SpellModifyFeature>
+              <Keywords />
+              <Name>Elemental Affinity</Name>
+              <Text>Starting at 6th level, when you cast a spell that deals cold damage, you can add your Charisma modifier to one damage roll of that spell.
+At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</Text>
+              <Level>6</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Spells>Cold</Spells>
+            </SpellModifyFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>White Dragon Ancestor</Name>
+          <Text>Damage type: Cold</Text>
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <SpellModifyFeature>
+              <Keywords />
+              <Name>Elemental Affinity</Name>
+              <Text>Starting at 6th level, when you cast a spell that deals cold damage, you can add your Charisma modifier to one damage roll of that spell.
+At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</Text>
+              <Level>6</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Spells>Cold</Spells>
+            </SpellModifyFeature>
+          </Features>
+        </MultiFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>SORCERER_DRAGON_ANCESTOR</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Draconic Resilience</Name>
+      <Text>As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.
+Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren’t wearing armor, your AC equals 13 + your Dexterity modifier.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <HitPointsFeature>
+          <Keywords />
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <HitPoints>ClassLevel</HitPoints>
+          <HitPointsPerLevel>0</HitPointsPerLevel>
+        </HitPointsFeature>
+        <ACFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Expression>if(Unarmored, 13+DexMod+ShieldBonus, 0)</Expression>
+        </ACFeature>
+      </Features>
+    </MultiFeature>
+    <Feature>
+      <Keywords />
+      <Name>Elemental Affinity</Name>
+      <Text>Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell.
+At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</Text>
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Dragon Wings</Name>
+      <Text>At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.
+You can’t manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Draconic Presence</Name>
+      <Text>Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or frightened. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends.
+A creature that succeeds on this saving throw is immune to your aura for 24 hours.
+</Text>
+      <Level>18</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Name>Draconic Bloodline</Name>
+  <SheetName>Dragon Sorcerer</SheetName>
+  <Description>Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.</Description>
+  <ParentRace>Sorcerer</ParentRace>
+</SubClass>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Weapon">
+  <Keywords>
+    <Keyword>
+      <Name>simple</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ammunition</Name>
+    </Keyword>
+    <Range>
+      <Name>range</Name>
+      <Short>30</Short>
+      <Long>120</Long>
+    </Range>
+    <Keyword>
+      <Name>bludgeoning</Name>
+    </Keyword>
+    <Keyword>
+      <Name>sling</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Sling</Name>
+  <Price>
+    <cp>0</cp>
+    <sp>1</sp>
+    <ep>0</ep>
+    <gp>0</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>0</Weight>
+  <Damage>1d4</Damage>
+  <DamageType>bludgeoning</DamageType>
+</Item>

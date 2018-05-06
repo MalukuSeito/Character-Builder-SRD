@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Potion of Fire Giant Strength</Name>
+      <Text>When you drink this potion, your Strength score changes to 25 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.
+This potion's transparent liquid has floating in it a sliver of fingernail from a fire giant.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+    </Feature>
+  </OnUseFeatures>
+  <AttunedOnUseFeatures />
+  <Requirement>Potion</Requirement>
+  <Name>Potion of Fire Giant Strength</Name>
+  <Description>When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.
+This potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The potion of frost giant strength and the potion of stone giant strength have the same effect.
+Type of Giant - Strength - Rarity
+Potion of Hill Giant Strength - 21 - Uncommon
+Potion of Frost Giant Strength - 23 - Rare
+Potion of Stone Giant Strength - 23 - Rare
+Potion of Fire Giant Strength - 25 - Rare
+Potion of Cloud Giant Strength - 27 - Very Rare
+Potion of Storm Giant Strength - 29 - Legendary</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Systems Reference Document v5.1</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

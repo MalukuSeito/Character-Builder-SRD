@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <Feature>
+      <Keywords>
+        <Keyword>
+          <Name>fighter</Name>
+        </Keyword>
+        <Keyword>
+          <Name>ranger</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Two-Weapon Fighting</Name>
+      <Text>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Source>Systems Reference Document v5.1</Source>
+</FeatureContainer>

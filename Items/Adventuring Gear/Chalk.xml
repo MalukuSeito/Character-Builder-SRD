@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords />
+  <StackSize>1</StackSize>
+  <Name>Chalk</Name>
+  <Description />
+  <Price>
+    <cp>1</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>0</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>0</Weight>
+  <Unit>pieces</Unit>
+  <SingleUnit>1 piece</SingleUnit>
+</Item>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Frightened</Name>
+  <Description>• A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.
+• The creature can’t willingly move closer to the source of its fear.</Description>
+  <Source>Systems Reference Document v5.1</Source>
+</Condition>

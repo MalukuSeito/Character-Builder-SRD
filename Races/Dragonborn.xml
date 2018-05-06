@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Strength score increases by 2, and your Charisma score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>2</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>1</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Young dragonborn grow quickly.
+They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15.
+They live to be around 80.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil.
+Most dragonborn are good, but those who side with evil can be terrible villains.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds.
+Your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Draconic Ancestry</Name>
+      <Text>You have draconic ancestry.
+Choose one type of dragon from the Draconic Ancestry table.
+Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <MultiFeature>
+          <Keywords />
+          <Name>Black Dragon</Name>
+          <Text>Your ancestor was a black dragon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <ResourceFeature>
+              <Keywords />
+              <Name>Breath Weapon</Name>
+              <Text>You can use your action to exhale destructive energy. 
+When you use your breath weapon, each creature in a 5 by 30 ft. line must make a Dex. saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 acid damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Action</Action>
+              <Prerequisite />
+              <ValueBonus>None</ValueBonus>
+              <Value>1</Value>
+              <ResourceID>DRAGONBORN_BREATH_WEAPON</ResourceID>
+              <Recharge>ShortRest</Recharge>
+              <ExclusionID>BREATH_WEAPON</ExclusionID>
+            </ResourceFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Damage Resistance</Name>
+              <Text>You have resistance to acid damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>acid</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+              <SavingThrowAdvantages />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Blue Dragon</Name>
+          <Text>Your ancestor was a blue dragon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <ResourceFeature>
+              <Keywords />
+              <Name>Breath Weapon</Name>
+              <Text>You can use your action to exhale destructive energy.
+When you use your breath weapon, each creature in a 5 by 30 ft. line must make a Dex. saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Action</Action>
+              <Prerequisite />
+              <ValueBonus>None</ValueBonus>
+              <Value>1</Value>
+              <ResourceID>DRAGONBORN_BREATH_WEAPON</ResourceID>
+              <Recharge>ShortRest</Recharge>
+              <ExclusionID>BREATH_WEAPON</ExclusionID>
+            </ResourceFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Damage Resistance</Name>
+              <Text>You have resistance to lightning damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>lightning</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+              <SavingThrowAdvantages />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Brass Dragon</Name>
+          <Text>Your ancestor was a brass dragon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <ResourceFeature>
+              <Keywords />
+              <Name>Breath Weapon</Name>
+              <Text>You can use your action to exhale destructive energy.
+When you use your breath weapon, each creature in a 5 by 30 ft. line must make a Dex. saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Action</Action>
+              <Prerequisite />
+              <ValueBonus>None</ValueBonus>
+              <Value>1</Value>
+              <ResourceID>DRAGONBORN_BREATH_WEAPON</ResourceID>
+              <Recharge>ShortRest</Recharge>
+              <ExclusionID>BREATH_WEAPON</ExclusionID>
+            </ResourceFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Damage Resistance</Name>
+              <Text>You have resistance to fire damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>fire</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+              <SavingThrowAdvantages />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Bronze Dragon</Name>
+          <Text>Your ancestor was a bronze dragon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <ResourceFeature>
+              <Keywords />
+              <Name>Breath Weapon</Name>
+              <Text>You can use your action to exhale destructive energy.
+When you use your breath weapon, each creature in a 5 by 30 ft. line must make a Dex. saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 lightning damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Action</Action>
+              <Prerequisite />
+              <ValueBonus>None</ValueBonus>
+              <Value>1</Value>
+              <ResourceID>DRAGONBORN_BREATH_WEAPON</ResourceID>
+              <Recharge>ShortRest</Recharge>
+              <ExclusionID>BREATH_WEAPON</ExclusionID>
+            </ResourceFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Damage Resistance</Name>
+              <Text>You have resistance to lightning damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>lightning</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+              <SavingThrowAdvantages />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Copper Dragon</Name>
+          <Text>Your ancestor was a copper dragon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <ResourceFeature>
+              <Keywords />
+              <Name>Breath Weapon</Name>
+              <Text>You can use your action to exhale destructive energy.
+When you use your breath weapon, each creature in a 5 by 30 ft. line must make a Dex. saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 acid damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Action</Action>
+              <Prerequisite />
+              <ValueBonus>None</ValueBonus>
+              <Value>1</Value>
+              <ResourceID>DRAGONBORN_BREATH_WEAPON</ResourceID>
+              <Recharge>ShortRest</Recharge>
+              <ExclusionID>BREATH_WEAPON</ExclusionID>
+            </ResourceFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Damage Resistance</Name>
+              <Text>You have resistance to acid damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>acid</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+              <SavingThrowAdvantages />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Gold Dragon</Name>
+          <Text>Your ancestor was a gold dragon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <ResourceFeature>
+              <Keywords />
+              <Name>Breath Weapon</Name>
+              <Text>You can use your action to exhale destructive energy.
+When you use your breath weapon, each creature in a 15 ft. cone must make a Dex. saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Action</Action>
+              <Prerequisite />
+              <ValueBonus>None</ValueBonus>
+              <Value>1</Value>
+              <ResourceID>DRAGONBORN_BREATH_WEAPON</ResourceID>
+              <Recharge>ShortRest</Recharge>
+              <ExclusionID>BREATH_WEAPON</ExclusionID>
+            </ResourceFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Damage Resistance</Name>
+              <Text>You have resistance to fire damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>fire</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+              <SavingThrowAdvantages />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Green Dragon</Name>
+          <Text>Your ancestor was a green dragon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <ResourceFeature>
+              <Keywords />
+              <Name>Breath Weapon</Name>
+              <Text>You can use your action to exhale destructive energy.
+When you use your breath weapon, each creature in a 15 ft. cone must make a Con. saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 poision damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Action</Action>
+              <Prerequisite />
+              <ValueBonus>None</ValueBonus>
+              <Value>1</Value>
+              <ResourceID>DRAGONBORN_BREATH_WEAPON</ResourceID>
+              <Recharge>ShortRest</Recharge>
+              <ExclusionID>BREATH_WEAPON</ExclusionID>
+            </ResourceFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Damage Resistance</Name>
+              <Text>You have resistance to poison damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>poison</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+              <SavingThrowAdvantages />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Red Dragon</Name>
+          <Text>Your ancestor was a red dragon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <ResourceFeature>
+              <Keywords />
+              <Name>Breath Weapon</Name>
+              <Text>You can use your action to exhale destructive energy.
+When you use your breath weapon, each creature in a 15 ft. cone must make a Dex. saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 fire damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Action</Action>
+              <Prerequisite />
+              <ValueBonus>None</ValueBonus>
+              <Value>1</Value>
+              <ResourceID>DRAGONBORN_BREATH_WEAPON</ResourceID>
+              <Recharge>ShortRest</Recharge>
+              <ExclusionID>BREATH_WEAPON</ExclusionID>
+            </ResourceFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Damage Resistance</Name>
+              <Text>You have resistance to fire damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>fire</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+              <SavingThrowAdvantages />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>Silver Dragon</Name>
+          <Text>Your ancestor was a silver dragon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <ResourceFeature>
+              <Keywords />
+              <Name>Breath Weapon</Name>
+              <Text>You can use your action to exhale destructive energy.
+When you use your breath weapon, each creature in a 15 ft. cone must make a Con. saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 cold damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Action</Action>
+              <Prerequisite />
+              <ValueBonus>None</ValueBonus>
+              <Value>1</Value>
+              <ResourceID>DRAGONBORN_BREATH_WEAPON</ResourceID>
+              <Recharge>ShortRest</Recharge>
+              <ExclusionID>BREATH_WEAPON</ExclusionID>
+            </ResourceFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Damage Resistance</Name>
+              <Text>You have resistance to cold damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>cold</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+              <SavingThrowAdvantages />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+        <MultiFeature>
+          <Keywords />
+          <Name>White Dragon</Name>
+          <Text>Your ancestor was a white dragon</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <ResourceFeature>
+              <Keywords />
+              <Name>Breath Weapon</Name>
+              <Text>You can use your action to exhale destructive energy.
+When you use your breath weapon, each creature in a 15 ft. cone must make a Con. saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 cold damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Action</Action>
+              <Prerequisite />
+              <ValueBonus>None</ValueBonus>
+              <Value>1</Value>
+              <ResourceID>DRAGONBORN_BREATH_WEAPON</ResourceID>
+              <Recharge>ShortRest</Recharge>
+              <ExclusionID>BREATH_WEAPON</ExclusionID>
+            </ResourceFeature>
+            <ResistanceFeature>
+              <Keywords />
+              <Name>Damage Resistance</Name>
+              <Text>You have resistance to cold damage.</Text>
+              <Level>1</Level>
+              <Hidden>false</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Resistances>
+                <string>cold</string>
+              </Resistances>
+              <Vulnerabilities />
+              <Immunities />
+              <SavingThrowAdvantages />
+            </ResistanceFeature>
+          </Features>
+        </MultiFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>DRAGONBORN_DRACONIC_ANCESTRY</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Breath Weapon</Name>
+      <Text>You can use your action to exhale destructive energy.
+Your draconic ancestry determines the size, shape, and damage type of the exhalation.
+When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry.
+The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus.
+A creature takes 2d6 damage on a failed save, and half as much damage on a successful one.
+The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.
+After you use your breath weapon, you can’t use it again until you complete a short or long rest.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Damage Resistance</Name>
+      <Text>You have resistance to the damage type associated with your draconic ancestry.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common and Draconic.
+Draconic is thought to be one of the oldest languages and is often used in the study of magic.
+The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Languages>
+        <string>Common</string>
+        <string>Draconic</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </Features>
+  <Name>Dragonborn</Name>
+  <Size>Medium</Size>
+  <Descriptions>
+    <Description>
+      <Name>Dragonborn Traits</Name>
+      <Text>Your draconic heritage manifests in a variety of traits you share with other dragonborn.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Systems Reference Document v5.1</Source>
+</Race>

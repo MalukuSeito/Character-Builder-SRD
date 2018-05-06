@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Pack">
+  <Keywords />
+  <StackSize>1</StackSize>
+  <Name>Diplomat’s Pack</Name>
+  <Description>Includes a chest, 2 cases for maps and scrolls, a set of fine clothes, a bottle of ink, an ink pen, a lamp, 2 flasks of oil, 5 sheets of paper, a vial of perfume, sealing wax, and soap.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>39</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>35</Weight>
+  <Contents>
+    <string>Chest</string>
+    <string>Case, Map or Scroll</string>
+    <string>Case, Map or Scroll</string>
+    <string>Clothes, Fine</string>
+    <string>Ink</string>
+    <string>Ink Pen</string>
+    <string>Oil</string>
+    <string>Oil</string>
+    <string>Paper</string>
+    <string>Paper</string>
+    <string>Paper</string>
+    <string>Paper</string>
+    <string>Paper</string>
+    <string>Perfume</string>
+    <string>Sealing Wax</string>
+    <string>Soap</string>
+  </Contents>
+</Item>

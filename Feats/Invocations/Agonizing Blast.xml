@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Agonizing Blast</Name>
+      <Text>When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>eldritch blast cantrip</Prerequisite>
+      <Features>
+        <BonusFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>2</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Condition>Name='eldritch blast'</Condition>
+          <Skills />
+          <SkillBonus>0</SkillBonus>
+          <SkillPassive>false</SkillPassive>
+          <AttackBonus>0</AttackBonus>
+          <DamageBonus>0</DamageBonus>
+          <SaveDCBonus>0</SaveDCBonus>
+          <ACBonus>0</ACBonus>
+          <InitiativeBonus>0</InitiativeBonus>
+          <DamageBonusModifier>Charisma</DamageBonusModifier>
+          <BaseAbility>None</BaseAbility>
+          <SavingThrowBonus>0</SavingThrowBonus>
+          <ProficiencyBonus>0</ProficiencyBonus>
+          <SavingThrowAbility>None</SavingThrowAbility>
+          <SizeChange>0</SizeChange>
+          <ProficiencyOptions />
+        </BonusFeature>
+        <SpellModifyFeature>
+          <Keywords />
+          <Name>Agonizing Blast</Name>
+          <Text>When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.</Text>
+          <Level>2</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>Name='eldritch blast'</Spells>
+        </SpellModifyFeature>
+      </Features>
+      <Source>Systems Reference Document v5.1</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Systems Reference Document v5.1</Source>
+</FeatureContainer>

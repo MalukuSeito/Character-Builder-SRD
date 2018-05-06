@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Charisma score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>1</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Naturally Stealthy</Name>
+      <Text>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </Features>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Name>Lightfoot</Name>
+  <Description>As a lightfoot halfling, you can easily hide from notice, even using other people as cover.
+You’re inclined to be affable and get along well with others.
+Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life.</Description>
+  <ParentRace>Halfling</ParentRace>
+</SubRace>

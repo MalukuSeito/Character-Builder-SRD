@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>concentration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>conjuration</Name>
+    </Keyword>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>healing</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+    <Keyword>
+      <Name>wizard</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Conjure Minor Elementals</Name>
+  <CastingTime>1 minute</CastingTime>
+  <Range>90 feet</Range>
+  <Duration>Concentration, up to 1 hour</Duration>
+  <Level>4</Level>
+  <Description>You summon elementals that appear in unoccupied spaces that you can see within range. You choose one the following options for what appears: 
+• One elemental of challenge rating 2 or lower 
+• Two elementals of challenge rating 1 or lower 
+• Four elementals of challenge rating 1/2 or lower 
+• Eight elementals of challenge rating 1/4 or lower.
+An elemental summoned by this spell disappears when it drops to 0 hit points or when the spell ends.
+The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you).
+If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.
+The GM has the creatures’ statistics.</Description>
+  <Descriptions>
+    <Description>
+      <Name>At Higher Levels</Name>
+      <Text>When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Systems Reference Document v5.1</Source>
+  <FormsCompanionsFilter>elemental and cr &lt;= 2</FormsCompanionsFilter>
+  <FormsCompanionsCount>-1</FormsCompanionsCount>
+</Spell>

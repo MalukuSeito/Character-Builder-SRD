@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ExtraAttackFeature>
+      <Keywords />
+      <Name>Thirsting Blade</Name>
+      <Text>You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>5th level, Pact of the Blade feature</Prerequisite>
+      <ExtraAttacks>1</ExtraAttacks>
+    </ExtraAttackFeature>
+  </Features>
+  <Source>Systems Reference Document v5.1</Source>
+</FeatureContainer>

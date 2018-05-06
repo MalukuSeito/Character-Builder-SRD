@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Armor">
+  <Keywords>
+    <Keyword>
+      <Name>heavy</Name>
+    </Keyword>
+    <Keyword>
+      <Name>plate</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Plate</Name>
+  <Description>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>1500</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>65</Weight>
+  <BaseAC>18</BaseAC>
+  <StealthDisadvantage>true</StealthDisadvantage>
+  <StrengthRequired>15</StrengthRequired>
+</Item>

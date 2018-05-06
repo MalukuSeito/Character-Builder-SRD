@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>druid</Name>
+        </Keyword>
+        <Keyword>
+          <Name>land</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Mountain</Name>
+      <Text>Circle of the Mountain</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>spider climb, spike growth</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>spider climb</string>
+            <string>spike growth</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>lightning bolt, meld into stone</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>lightning bolt</string>
+            <string>meld into stone</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>stone shape, stoneskin</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>stone shape</string>
+            <string>stoneskin</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>passwall, wall of stone</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>passwall</string>
+            <string>wall of stone</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Systems Reference Document v5.1</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Systems Reference Document v5.1</Source>
+</FeatureContainer>

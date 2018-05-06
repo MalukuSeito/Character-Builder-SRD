@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Intelligence score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>1</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <ToolProficiencyFeature>
+      <Keywords />
+      <Name>Elf Weapon Training</Name>
+      <Text>You have proficiency with the longsword, shortsword, shortbow, and longbow.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <Prerequisite />
+      <Tools>
+        <string>longsword</string>
+        <string>shortsword</string>
+        <string>shortbow</string>
+        <string>longbow</string>
+      </Tools>
+    </ToolProficiencyFeature>
+    <BonusSpellKeywordChoiceFeature>
+      <Keywords />
+      <Name>Cantrip</Name>
+      <Text>You know one cantrip of your choice from the wizard spell list.
+Intelligence is your spellcasting ability for it</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <Prerequisite />
+      <Condition>Wizard and Cantrip</Condition>
+      <SpellCastingAbility>Intelligence</SpellCastingAbility>
+      <UniqueID>HIGH_ELF_CANTRIP</UniqueID>
+      <SpellCastModifier>Unmodified</SpellCastModifier>
+      <Amount>1</Amount>
+      <KeywordsToAdd />
+    </BonusSpellKeywordChoiceFeature>
+    <LanguageChoiceFeature>
+      <Keywords />
+      <Name>Extra Language</Name>
+      <Text>You can speak, read, and write one extra language of your choice</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <Amount>1</Amount>
+      <UniqueID>HIGH_ELF_LANGUAGE</UniqueID>
+    </LanguageChoiceFeature>
+  </Features>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Name>High Elf</Name>
+  <Description>As a high elf, you have a keen mind and a mastery of at least the basics of magic.
+In many fantasy gaming worlds, there are two kinds of high elves.
+One type is haughty and reclusive, believing themselves to be superior to non-elves and even other elves.
+The other type is more common and more friendly, and often encountered among humans and other races.</Description>
+  <ParentRace>Elf</ParentRace>
+</SubRace>

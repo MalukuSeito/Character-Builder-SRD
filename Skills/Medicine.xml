@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Medicine</Name>
+  <Description>A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.</Description>
+  <Base>Wisdom</Base>
+  <Source>Systems Reference Document v5.1</Source>
+</Skill>

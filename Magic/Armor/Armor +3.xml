@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name>Armor +3</Name>
+      <Text>You have a +3 bonus to AC while wearing this armor.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <Prerequisite />
+      <Condition>Armor and (Light or Medium or Heavy)</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <ACBonus>3</ACBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+    </BonusFeature>
+  </EquipFeatures>
+  <OnUseFeatures />
+  <Requirement>Armor (light, medium, or heavy)</Requirement>
+  <Name>Armor +3</Name>
+  <Description>You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.</Description>
+  <Slot>Armor</Slot>
+  <Base>Armor and (Light or Medium or Heavy)</Base>
+  <Source>Systems Reference Document v5.1</Source>
+  <PostName>+3</PostName>
+  <Rarity>Legendary</Rarity>
+</MagicProperty>

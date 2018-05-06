@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Select an Ability Score Increase</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <AbilityScoreFeature>
+          <Keywords />
+          <Name>Normal Human Ability Scores</Name>
+          <Text>Your ability scores each increase by 1.</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Modifier>AddScore</Modifier>
+          <Strength>1</Strength>
+          <Constitution>1</Constitution>
+          <Dexterity>1</Dexterity>
+          <Intelligence>1</Intelligence>
+          <Wisdom>1</Wisdom>
+          <Charisma>1</Charisma>
+        </AbilityScoreFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>HUMAN_VARIANT</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Age</Name>
+      <Text>Humans reach adulthood in their late teens and live less than a century.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Alignment</Name>
+      <Text>Humans tend toward no particular alignment.
+The best and the worst are found among them.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <Feature>
+      <Keywords />
+      <Name>Size</Name>
+      <Text>Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall.
+Regardless of your position in that range, your size is Medium.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <SpeedFeature>
+      <Keywords />
+      <Name>Speed</Name>
+      <Text>Your base walking speed is 30 feet.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <BaseSpeed>30</BaseSpeed>
+      <ExtraSpeed>0</ExtraSpeed>
+      <IgnoreArmor>false</IgnoreArmor>
+      <Condition>true</Condition>
+    </SpeedFeature>
+    <MultiFeature>
+      <Keywords />
+      <Name>Languages</Name>
+      <Text>You can speak, read, and write Common and one extra language of your choice.
+Humans typically learn the languages of other peoples they deal with, including obscure dialects.
+They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <LanguageProficiencyFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>1</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Languages>
+            <string>Common</string>
+          </Languages>
+        </LanguageProficiencyFeature>
+        <LanguageChoiceFeature>
+          <Keywords />
+          <Name />
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Amount>1</Amount>
+          <UniqueID>HUMAN_LANGUAGE</UniqueID>
+        </LanguageChoiceFeature>
+      </Features>
+    </MultiFeature>
+  </Features>
+  <Name>Human</Name>
+  <Size>Medium</Size>
+  <Descriptions>
+    <Description>
+      <Name>Human Traits</Name>
+      <Text>It’s hard to make generalizations about humans, but your human character has these traits.</Text>
+    </Description>
+  </Descriptions>
+  <Source>Systems Reference Document v5.1</Source>
+</Race>

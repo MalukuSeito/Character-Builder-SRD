@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Weapon">
+  <Keywords>
+    <Keyword>
+      <Name>heavy</Name>
+    </Keyword>
+    <Keyword>
+      <Name>two-handed</Name>
+    </Keyword>
+    <Keyword>
+      <Name>martial</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>axe</Name>
+    </Keyword>
+    <Keyword>
+      <Name>slashing</Name>
+    </Keyword>
+    <Keyword>
+      <Name>greataxe</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Greataxe</Name>
+  <Description />
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>30</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>7</Weight>
+  <Damage>1d12</Damage>
+  <DamageType>slashing</DamageType>
+</Item>

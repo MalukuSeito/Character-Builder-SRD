@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Gauntlets of Ogre Power</Name>
+      <Text>Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <Modifier>Set</Modifier>
+      <Strength>19</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <OnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Gauntlets of Ogre Power</Name>
+  <Description>Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Systems Reference Document v5.1</Source>
+  <Rarity>Uncommon</Rarity>
+</MagicProperty>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Belt of Dwarvenkind</Name>
+      <Text>Your Constitution score increases by 2, to a maximum of 20.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>2</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>0</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <Feature>
+      <Keywords />
+      <Name>Belt of Dwarvenkind</Name>
+      <Text>You have advantage on Charisma (Persuasion) checks made to interact with dwarves.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Belt of Dwarvenkind</Name>
+      <Text>If you aren’t a dwarf, you have advantage on saving throws against poison, and you have resistance against poison damage.
+</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Not a dwarf</Prerequisite>
+      <Resistances>
+        <string>poison</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>poison</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+    <VisionFeature>
+      <Keywords />
+      <Name>Belt of Dwarvenkind</Name>
+      <Text>If you aren’t a dwarf, you have darkvision out to a range of 60 feet.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Not a dwarf</Prerequisite>
+      <Range>60</Range>
+    </VisionFeature>
+    <LanguageProficiencyFeature>
+      <Keywords />
+      <Name>Belt of Dwarvenkind</Name>
+      <Text>If you aren’t a dwarf, you can speak, read, and write Dwarvish.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Not a dwarf</Prerequisite>
+      <Languages>
+        <string>Dwarvish</string>
+      </Languages>
+    </LanguageProficiencyFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Wondrous item</Requirement>
+  <Name>Belt of Dwarvenkind</Name>
+  <Description>While wearing this belt, you gain the following benefits: 
+• Your Constitution score increases by 2, to a maximum of 20.
+• You have advantage on Charisma (Persuasion) checks made to interact with dwarves.
+In addition, while attuned to the belt, you have a 50 percent chance each day at dawn of growing a full beard if you’re capable of growing one, or a visibly thicker beard if you already have one.
+If you aren’t a dwarf, you gain the following additional benefits while wearing the belt: 
+• You have advantage on saving throws against poison, and you have resistance against poison damage.
+• You have darkvision out to a range of 60 feet.
+• You can speak, read, and write Dwarvish.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Systems Reference Document v5.1</Source>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

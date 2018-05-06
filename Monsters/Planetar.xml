@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Planetar</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>celestial</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful good</Alignment>
+  <AC>19</AC>
+  <ACText>natural armor</ACText>
+  <HP>200</HP>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>fly 120 ft.</string>
+  </Speeds>
+  <Strength>24</Strength>
+  <Dexterity>20</Dexterity>
+  <Constitution>24</Constitution>
+  <Intelligence>19</Intelligence>
+  <Wisdom>22</Wisdom>
+  <Charisma>25</Charisma>
+  <Resistances>
+    <string>radiant</string>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>all</string>
+    <string>telepathy 120 ft.</string>
+  </Languages>
+  <CR>16</CR>
+  <XP>15000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Angelic Weapons</Name>
+      <Text>The planetar’s weapon attacks are magical.  When the planetar hits with any weapon, the weapon deals an extra 5d8 radiant damage (included in the attack).</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Divine Awareness</Name>
+      <Text>The planetar knows if it hears a lie.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The planetar’s spellcasting ability is Charisma (spell save DC 20).  The planetar can innately cast the following spells, requiring no material components:
+At will: detect evil and good, invisibility (self only)
+3/day each: blade barrier, dispel evil and good, flame strike, raise dead
+1/day each: commune, control weather, insect plague</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The planetar has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The planetar makes two melee attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Greatsword</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21 (4d6 + 7) slashing damage plus 22 (5d8) radiant damage.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>4d6+7+5d8</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Healing Touch (4/Day)</Name>
+      <Text>The planetar touches another creature. The target magically regains 30 (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness, or deafness.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Detect Evil and Good</string>
+    <string>Invisibility</string>
+    <string>Blade Barrier</string>
+    <string>Dispel Evil and Good</string>
+    <string>Flame Strike</string>
+    <string>Raise Dead</string>
+    <string>Commune</string>
+    <string>Control Weather</string>
+    <string>Insect Plague</string>
+  </Spells>
+  <Slots />
+</Monster>

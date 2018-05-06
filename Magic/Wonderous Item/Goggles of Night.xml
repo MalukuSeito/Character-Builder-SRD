@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures>
+    <VisionFeature>
+      <Keywords />
+      <Name>Goggles of Night</Name>
+      <Text>While wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the goggles increases its range by 60 feet.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <Prerequisite />
+      <Range>60</Range>
+    </VisionFeature>
+  </CarryFeatures>
+  <EquipFeatures />
+  <OnUseFeatures />
+  <Requirement>Wonderous Item</Requirement>
+  <Name>Goggles of Night</Name>
+  <Description>While wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the goggles increases its range by 60 feet.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Systems Reference Document v5.1</Source>
+  <Rarity>Uncommon</Rarity>
+</MagicProperty>

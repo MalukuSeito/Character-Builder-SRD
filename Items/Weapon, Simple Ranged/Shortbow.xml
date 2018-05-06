@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Weapon">
+  <Keywords>
+    <Keyword>
+      <Name>simple</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ranged</Name>
+    </Keyword>
+    <Range>
+      <Name>range</Name>
+      <Short>80</Short>
+      <Long>320</Long>
+    </Range>
+    <Keyword>
+      <Name>two-handed</Name>
+    </Keyword>
+    <Keyword>
+      <Name>ammunition</Name>
+    </Keyword>
+    <Keyword>
+      <Name>bow</Name>
+    </Keyword>
+    <Keyword>
+      <Name>piercing</Name>
+    </Keyword>
+    <Keyword>
+      <Name>shortbow</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Shortbow</Name>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>25</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>2</Weight>
+  <Damage>1d8</Damage>
+  <DamageType>piercing</DamageType>
+</Item>

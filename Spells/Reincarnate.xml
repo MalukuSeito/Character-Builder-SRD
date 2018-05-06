@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Keywords>
+    <Keyword>
+      <Name>druid</Name>
+    </Keyword>
+    <Keyword>
+      <Name>instantaneous</Name>
+    </Keyword>
+    <Material>
+      <Name>material</Name>
+      <Components>rare oils and unguents worth at least 1,000 gp, which the spell consumes</Components>
+    </Material>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>somatic</Name>
+    </Keyword>
+    <Keyword>
+      <Name>touch</Name>
+    </Keyword>
+    <Keyword>
+      <Name>transmutation</Name>
+    </Keyword>
+    <Keyword>
+      <Name>verbal</Name>
+    </Keyword>
+  </Keywords>
+  <CantripDamage />
+  <Name>Reincarnate</Name>
+  <CastingTime>1 hour</CastingTime>
+  <Range>Touch</Range>
+  <Duration>Instantaneous</Duration>
+  <Level>5</Level>
+  <Description>You touch a dead humanoid or a piece of a dead humanoid. Provided that the creature has been dead no longer than 10 days, the spell forms a new adult body for it and then calls the soul to enter that body. If the target’s soul isn’t free or willing to do so, the spell fails.
+The magic fashions a new body for the creature to inhabit, which likely causes the creature’s race to change. The GM rolls a d100 and consults the following table to determine what form the creature takes when restored to life, or the GM chooses a form.
+The reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly.</Description>
+  <Descriptions>
+    <TableDescription>
+      <Name>Race</Name>
+      <Entries>
+        <TableEntry>
+          <MinRoll>1</MinRoll>
+          <MaxRoll>4</MaxRoll>
+          <Text>Dragonborn</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>5</MinRoll>
+          <MaxRoll>13</MaxRoll>
+          <Text>Dwarf, hill</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>14</MinRoll>
+          <MaxRoll>21</MaxRoll>
+          <Text>Dwarf, mountain</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>22</MinRoll>
+          <MaxRoll>25</MaxRoll>
+          <Text>Elf, dark</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>26</MinRoll>
+          <MaxRoll>34</MaxRoll>
+          <Text>Elf, high</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>35</MinRoll>
+          <MaxRoll>42</MaxRoll>
+          <Text>Elf, wood</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>43</MinRoll>
+          <MaxRoll>46</MaxRoll>
+          <Text>Gnome, forest</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>47</MinRoll>
+          <MaxRoll>52</MaxRoll>
+          <Text>Gnome, rock</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>53</MinRoll>
+          <MaxRoll>56</MaxRoll>
+          <Text>Half-elf</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>57</MinRoll>
+          <MaxRoll>60</MaxRoll>
+          <Text>Half-orc</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>61</MinRoll>
+          <MaxRoll>68</MaxRoll>
+          <Text>Halfling, lightfoot</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>69</MinRoll>
+          <MaxRoll>76</MaxRoll>
+          <Text>Halfling, stout</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>77</MinRoll>
+          <MaxRoll>96</MaxRoll>
+          <Text>Human</Text>
+        </TableEntry>
+        <TableEntry>
+          <MinRoll>97</MinRoll>
+          <MaxRoll>100</MaxRoll>
+          <Text>Tiefling</Text>
+        </TableEntry>
+      </Entries>
+      <Amount>0</Amount>
+    </TableDescription>
+  </Descriptions>
+  <Source>Systems Reference Document v5.1</Source>
+</Spell>

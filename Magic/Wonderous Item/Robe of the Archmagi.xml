@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <ACFeature>
+      <Keywords />
+      <Name>Robe of the Archmagi</Name>
+      <Text>This elegant garment is made from exquisite cloth of white, gray, or black and adorned with silvery runes. The robe's color corresponds to the alignment for which the item was created. A white robe was made for good, gray for neutral, and black for evil. You can't attune to a robe of the archmagi that doesn't correspond to your alignment. You gain these benefits while wearing the robe:
+ • If you aren't wearing armor, your base Armor Class is 15 + your Dexterity modifier.
+ • You have advantage on saving throws against spells and other magical effects.
+ • Your spell save DC and spell attack bonus each increase by 2.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <Prerequisite />
+      <Expression>if(Unarmored, 15 + DexMod + ShieldBonus, 0)</Expression>
+    </ACFeature>
+    <BonusFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <Prerequisite />
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>2</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>2</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+    </BonusFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <OnUseFeatures />
+  <Requirement>Wondrous Item, legendary (requires attunement by a a sorcerer, warlock, or wizard)</Requirement>
+  <Name>Robe of the Archmagi</Name>
+  <Description>This elegant garment is made from exquisite cloth of white, gray, or black and adorned with silvery runes. The robe's color corresponds to the alignment for which the item was created. A white robe was made for good, gray for neutral, and black for evil. You can't attune to a robe of the archmagi that doesn't correspond to your alignment. You gain these benefits while wearing the robe:
+ • If you aren't wearing armor, your base Armor Class is 15 + your Dexterity modifier.
+ • You have advantage on saving throws against spells and other magical effects.
+ • Your spell save DC and spell attack bonus each increase by 2.</Description>
+  <Slot>Wonderous</Slot>
+  <Source>Systems Reference Document v5.1</Source>
+  <Rarity>Legendary</Rarity>
+</MagicProperty>

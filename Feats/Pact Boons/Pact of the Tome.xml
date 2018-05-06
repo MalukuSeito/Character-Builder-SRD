@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <SpellChoiceFeature>
+      <Keywords />
+      <Name>Pact of the Tome</Name>
+      <Text>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class’s spell list (the three needn’t be from the same list).
+While the book is on your person, you can cast those cantrips at will. They don’t count against your number of cantrips known. If they don’t appear on the warlock spell list, they are nonetheless warlock spells for you.
+If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die </Text>
+      <Level>3</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AvailableSpellChoices>Cantrip</AvailableSpellChoices>
+      <SpellcastingID>WARLOCK</SpellcastingID>
+      <UniqueID>WARLOCK_TOME</UniqueID>
+      <AddTo>LearnSpells</AddTo>
+      <Amount>3</Amount>
+    </SpellChoiceFeature>
+  </Features>
+  <Source>Systems Reference Document v5.1</Source>
+</FeatureContainer>

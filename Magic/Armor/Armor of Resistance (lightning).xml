@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Armor of Resistance</Name>
+      <Text>You have resistance to lightning damage while you wear this armor.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>lightning</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages />
+    </ResistanceFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Armor (light, medium, or heavy)</Requirement>
+  <Name>Armor of Resistance (lightning)</Name>
+  <Description>You have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly from the options below.</Description>
+  <Slot>Armor</Slot>
+  <Base>Armor and (Light or Medium or Heavy)</Base>
+  <Source>Systems Reference Document v5.1</Source>
+  <PostName>of Lightning Resistance</PostName>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

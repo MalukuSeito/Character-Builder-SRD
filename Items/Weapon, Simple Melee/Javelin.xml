@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Weapon">
+  <Keywords>
+    <Keyword>
+      <Name>thrown</Name>
+    </Keyword>
+    <Keyword>
+      <Name>melee</Name>
+    </Keyword>
+    <Keyword>
+      <Name>simple</Name>
+    </Keyword>
+    <Range>
+      <Name>range</Name>
+      <Short>30</Short>
+      <Long>120</Long>
+    </Range>
+    <Keyword>
+      <Name>piercing</Name>
+    </Keyword>
+    <Keyword>
+      <Name>javelin</Name>
+    </Keyword>
+    <Keyword>
+      <Name>spear</Name>
+    </Keyword>
+  </Keywords>
+  <StackSize>1</StackSize>
+  <Name>Javelin</Name>
+  <Price>
+    <cp>0</cp>
+    <sp>5</sp>
+    <ep>0</ep>
+    <gp>0</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>2</Weight>
+  <Damage>1d6</Damage>
+  <DamageType>piercing</DamageType>
+</Item>

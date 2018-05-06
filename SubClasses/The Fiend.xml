@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you:
+burning hands, command</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Burning Hands</string>
+        <string>Command</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>blindness/deafness, scorching ray</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Blindness/Deafness</string>
+        <string>Scorching Ray</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>fireball, stinking cloud</Text>
+      <Level>5</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Fireball</string>
+        <string>Stinking Cloud</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>fire shield, wall of fire</Text>
+      <Level>7</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells />
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>Name='fire shield' or Name='wall of fire'</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <ModifySpellChoiceFeature>
+      <Keywords />
+      <Name>Expanded Spell List</Name>
+      <Text>flame strike, hallow</Text>
+      <Level>9</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <AdditionalSpells>
+        <string>Flame Strike</string>
+        <string>Hallow</string>
+      </AdditionalSpells>
+      <KeywordsToAdd>
+        <Keyword>
+          <Name>warlock</Name>
+        </Keyword>
+      </KeywordsToAdd>
+      <AdditionalSpellChoices>false</AdditionalSpellChoices>
+      <UniqueID>WARLOCK_SPELL</UniqueID>
+    </ModifySpellChoiceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Dark One’s Blessing</Name>
+      <Text>Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1).</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Dark One’s Own Luck</Name>
+      <Text>Starting at 6th level, you can call on your patron to alter fate in your favor.
+When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll’s effects occur. Once you use this feature, you can’t use it again until you finish a short or long rest.</Text>
+      <Level>6</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WARLOCK_FIEND_LUCK</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <Feature>
+      <Keywords />
+      <Name>Fiendish Resilience</Name>
+      <Text>Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.</Text>
+      <Level>10</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Hurl Through Hell</Name>
+      <Text>Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape. 
+At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience.
+Once you use this feature, you can’t use it again until you finish a long rest.</Text>
+      <Level>14</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>WARLOCK_FIEND_HURL</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+  </Features>
+  <MulticlassingFeatures />
+  <FirstClassFeatures />
+  <MulticlassingSpellLevels />
+  <Descriptions>
+    <Description>
+      <Name>Your Pact</Name>
+      <Text>Boon Each Pact Boon option produces a special creature or an object that reflects your patron’s nature.
+Pact of the Chain. Your familiar is more cunning than a typical familiar.
+Its default form can be a reflection of your patron, with imps and quasits tied to the Fiend.
+Pact of the Blade. If you serve the Fiend, your weapon could be an axe made of black metal and adorned with decorative flames.
+Pact of the Tome. Your Book of Shadows could be a weighty tome bound in demon hide studded with iron, holding spells of conjuration and a wealth of forbidden lore about the sinister regions of the cosmos, a gift of the Fiend.
+</Text>
+    </Description>
+  </Descriptions>
+  <Source>Systems Reference Document v5.1</Source>
+  <Name>The Fiend</Name>
+  <SheetName>Fiend Pact Warlock</SheetName>
+  <Description>You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz’Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.</Description>
+  <ParentRace>Warlock</ParentRace>
+</SubClass>

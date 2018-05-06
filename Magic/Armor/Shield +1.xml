@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name>Shield +1</Name>
+      <Text>While holding this shield, you have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <Prerequisite />
+      <Condition>true</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <ACBonus>1</ACBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </EquipFeatures>
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Armor (shield)</Requirement>
+  <Name>Shield +1</Name>
+  <Description>While holding this shield, you have a bonus to AC determined by the shield’s rarity. This bonus is in addition to the shield’s normal bonus to AC.</Description>
+  <Slot>Wonderous</Slot>
+  <Base>Shield</Base>
+  <Source>Systems Reference Document v5.1</Source>
+  <PostName>+1</PostName>
+  <Rarity>Uncommon</Rarity>
+</MagicProperty>

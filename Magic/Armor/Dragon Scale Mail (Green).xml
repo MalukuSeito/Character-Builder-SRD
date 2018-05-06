@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Green Dragon Sense</Name>
+      <Text>You can focus your senses as an action to magically discern the distance and direction to the closest green dragon within 30 miles of you. This special action can't be used again until the next dawn.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>DRAGON_SCALE_MAIL</ResourceID>
+      <Recharge>Dawn</Recharge>
+      <ExclusionID>DRAGON_SCALE_MAIL</ExclusionID>
+    </ResourceFeature>
+    <ResistanceFeature>
+      <Keywords />
+      <Name>Green Dragon Scale Mail</Name>
+      <Text>You have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to poison damage.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Resistances>
+        <string>poison</string>
+      </Resistances>
+      <Vulnerabilities />
+      <Immunities />
+      <SavingThrowAdvantages>
+        <string>Frightful Presence</string>
+        <string>breath weapons of dragons</string>
+      </SavingThrowAdvantages>
+    </ResistanceFeature>
+  </AttunementFeatures>
+  <CarryFeatures />
+  <EquipFeatures />
+  <AttunedEquipFeatures>
+    <BonusFeature>
+      <Keywords />
+      <Name>Dragon scale mail</Name>
+      <Text>You gain a +1 bonus to AC</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>true</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <ACBonus>1</ACBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+    </BonusFeature>
+  </AttunedEquipFeatures>
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Armor (scale mail)</Requirement>
+  <Name>Dragon Scale Mail (Green)</Name>
+  <Description>Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.
+While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of a dragon that provided the scales (see the table).
+Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon of the type of armor within 30 miles of you. This special action can't be used again until the next dawn.
+
+Dragon and Damage Type:
+Black: Acid
+Blue: Lightning
+Brass: Fire
+Bronze: Lightning
+Copper: Acid
+Gold: Fire
+Green: Poison
+Red: Fire
+Silver: Cold
+White: Cold</Description>
+  <Slot>Armor</Slot>
+  <Base>Armor and Scalemail</Base>
+  <Source>Systems Reference Document v5.1</Source>
+  <PrependName>Dragon</PrependName>
+  <PostName>(Black)</PostName>
+  <Rarity>VeryRare</Rarity>
+</MagicProperty>

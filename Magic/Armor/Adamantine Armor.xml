@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Adamantine Armor</Name>
+      <Text>Any critical hit against you becomes a normal hit.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+    </Feature>
+  </EquipFeatures>
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Armor (medium or heavy, but not hide)</Requirement>
+  <Name>Adamantine Armor</Name>
+  <Description>This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you’re wearing it, any critical hit against you becomes a normal hit.</Description>
+  <Slot>Armor</Slot>
+  <Base>Armor and (Medium or Heavy) and not(Hide)</Base>
+  <Source>Systems Reference Document v5.1</Source>
+  <PrependName>Adamantine</PrependName>
+  <Rarity>Uncommon</Rarity>
+</MagicProperty>

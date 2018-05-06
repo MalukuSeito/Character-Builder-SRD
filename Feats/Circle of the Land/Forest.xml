@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>druid</Name>
+        </Keyword>
+        <Keyword>
+          <Name>land</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Forest</Name>
+      <Text>Circle of the Forest</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>barkskin, spider climb</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>barkskin</string>
+            <string>spider climb</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>call lightning, plant growth</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>call lightning</string>
+            <string>plant growth</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>divination, freedom of movement</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>divination</string>
+            <string>freedom of movement</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>commune with nature, tree stride</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>commune with nature</string>
+            <string>tree stride</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Systems Reference Document v5.1</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Systems Reference Document v5.1</Source>
+</FeatureContainer>

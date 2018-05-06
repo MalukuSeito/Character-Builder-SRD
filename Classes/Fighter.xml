@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClassDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <CollectionChoiceFeature>
+      <Keywords />
+      <Name>Fighting Style</Name>
+      <Text>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Amount>1</Amount>
+      <UniqueID>FIGHTER_STYLE</UniqueID>
+      <Collection>Category = 'Feats/Fighting Styles' and Fighter</Collection>
+      <AllowSameChoice>false</AllowSameChoice>
+    </CollectionChoiceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Second Wind</Name>
+      <Text>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
+Once you use this feature, you must finish a short or long rest before you can use it again.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>FIGHTER_SECONDWIND</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Action Surge</Name>
+      <Text>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.
+Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</Text>
+      <Level>2</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>FIGHTER_ACTIONSURGE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>FIGHTER_ACTIONSURGE</ResourceID>
+      <Recharge>ShortRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <SubClassFeature>
+      <Keywords />
+      <Name>Martial Archetype</Name>
+      <Text>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ParentClass>Fighter</ParentClass>
+    </SubClassFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name>Ability Score Improvement</Name>
+      <Text>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</Text>
+      <Level>4</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>FIGHTER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <ExtraAttackFeature>
+      <Keywords />
+      <Name>Extra Attack</Name>
+      <Text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</Text>
+      <Level>5</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ExtraAttacks>1</ExtraAttacks>
+    </ExtraAttackFeature>
+    <ExtraAttackFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>11</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ExtraAttacks>2</ExtraAttacks>
+    </ExtraAttackFeature>
+    <ExtraAttackFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>20</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ExtraAttacks>2</ExtraAttacks>
+    </ExtraAttackFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>8</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>FIGHTER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>6</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>FIGHTER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name>Indomitable</Name>
+      <Text>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest.
+You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</Text>
+      <Level>9</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>FIGHTER_INDOMITABLE</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>13</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>FIGHTER_INDOMITABLE</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <ResourceFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>17</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <ValueBonus>None</ValueBonus>
+      <Value>1</Value>
+      <ResourceID>FIGHTER_INDOMITABLE</ResourceID>
+      <Recharge>LongRest</Recharge>
+      <ExclusionID />
+    </ResourceFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>12</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>FIGHTER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>14</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>FIGHTER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>16</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>FIGHTER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+    <AbilityScoreFeatFeature>
+      <Keywords />
+      <Name />
+      <Text />
+      <Level>19</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <UniqueID>FIGHTER_ABILITY</UniqueID>
+    </AbilityScoreFeatFeature>
+  </Features>
+  <MulticlassingSpellLevels />
+  <MulticlassingFeatures>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Multiclassing Proficiencies:</Name>
+      <Text>Light armor, medium armor, shields, simple weapons, martial weapons </Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(Armor and (Light or Medium)) or Shield or (Weapon and (Simple or Martial))</Condition>
+      <Description>Light armor, medium armor, shields, simple weapons, martial weapons </Description>
+    </ToolKWProficiencyFeature>
+  </MulticlassingFeatures>
+  <FirstClassFeatures>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Armor</Name>
+      <Text>All armor, shields</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>Armor or Shield</Condition>
+      <Description>All armor, shields</Description>
+    </ToolKWProficiencyFeature>
+    <ToolKWProficiencyFeature>
+      <Keywords />
+      <Name>Weapons</Name>
+      <Text>Simple weapons, martial weapons</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Condition>(Simple or Martial) and Weapon</Condition>
+      <Description>Simple weapons, martial weapons</Description>
+    </ToolKWProficiencyFeature>
+    <SaveProficiencyFeature>
+      <Keywords />
+      <Name>Saving Throws</Name>
+      <Text>Strength, Constitution</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Ability>Strength Constitution</Ability>
+    </SaveProficiencyFeature>
+    <SkillProficiencyChoiceFeature>
+      <Keywords />
+      <Name>Skills</Name>
+      <Text>Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Skills>
+        <string>Acrobatics</string>
+        <string>Animal Handling</string>
+        <string>Athletics</string>
+        <string>History</string>
+        <string>Insight</string>
+        <string>Intimidation</string>
+        <string>Perception</string>
+        <string>Survival</string>
+      </Skills>
+      <Amount>2</Amount>
+      <ProficiencyMultiplier>1</ProficiencyMultiplier>
+      <BonusType>AddOnlyIfNotProficient</BonusType>
+      <OnlyAlreadyKnownSkills>false</OnlyAlreadyKnownSkills>
+      <UniqueID>FIGHTER_SKILLS</UniqueID>
+    </SkillProficiencyChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) chain mail or (b) leather, longbow, and 20 arrows</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <FreeItemAndGoldFeature>
+          <Keywords />
+          <Name>Chain Mail</Name>
+          <Text>Chain Mail</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Items>
+            <string>Chain mail</string>
+          </Items>
+          <CP>0</CP>
+          <SP>0</SP>
+          <GP>0</GP>
+        </FreeItemAndGoldFeature>
+        <FreeItemAndGoldFeature>
+          <Keywords />
+          <Name>Leather, longbow, and 20 arrows</Name>
+          <Text>Leather, longbow, and 20 arrows</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Items>
+            <string>Longbow</string>
+            <string>Arrow</string>
+            <string>Leather</string>
+          </Items>
+          <CP>0</CP>
+          <SP>0</SP>
+          <GP>0</GP>
+        </FreeItemAndGoldFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>FIGHTER_EQUIP1</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a martial weapon and a shield or (b) two martial weapons</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <MultiFeature>
+          <Keywords />
+          <Name>A martial weapon and a shield</Name>
+          <Text>A martial weapon and a shield</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Features>
+            <ItemChoiceConditionFeature>
+              <Keywords />
+              <Name>Martial weapon</Name>
+              <Text>Martial weapon</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Prerequisite />
+              <Amount>1</Amount>
+              <UniqueID>FIGHTER_EQUIP2_1</UniqueID>
+              <Condition>Martial and Weapon</Condition>
+            </ItemChoiceConditionFeature>
+            <FreeItemAndGoldFeature>
+              <Keywords />
+              <Name>Shield</Name>
+              <Text>Shield</Text>
+              <Level>1</Level>
+              <Hidden>true</Hidden>
+              <NoDisplay>false</NoDisplay>
+              <Action>Hidden</Action>
+              <Items>
+                <string>Shield</string>
+              </Items>
+              <CP>0</CP>
+              <SP>0</SP>
+              <GP>0</GP>
+            </FreeItemAndGoldFeature>
+          </Features>
+        </MultiFeature>
+        <ItemChoiceConditionFeature>
+          <Keywords />
+          <Name>Two martial weapons</Name>
+          <Text>Two martial weapons</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Amount>2</Amount>
+          <UniqueID>FIGHTER_EQUIP2_2</UniqueID>
+          <Condition>Martial and Weapon</Condition>
+        </ItemChoiceConditionFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>FIGHTER_EQUIP2</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a light crossbow and 20 bolts or (b) two handaxes</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Choices>
+        <FreeItemAndGoldFeature>
+          <Keywords />
+          <Name>A light crossbow and 20 bolts</Name>
+          <Text>A light crossbow and 20 bolts</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Items>
+            <string>Crossbow, Light</string>
+            <string>Crossbow Bolts</string>
+          </Items>
+          <CP>0</CP>
+          <SP>0</SP>
+          <GP>0</GP>
+        </FreeItemAndGoldFeature>
+        <FreeItemAndGoldFeature>
+          <Keywords />
+          <Name>Two handaxes</Name>
+          <Text>Two handaxes</Text>
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Items>
+            <string>Handaxe</string>
+            <string>Handaxe</string>
+          </Items>
+          <CP>0</CP>
+          <SP>0</SP>
+          <GP>0</GP>
+        </FreeItemAndGoldFeature>
+      </Choices>
+      <Amount>1</Amount>
+      <UniqueID>FIGHTER_EQUIP3</UniqueID>
+      <AllowSameChoice>false</AllowSameChoice>
+    </ChoiceFeature>
+    <ItemChoiceFeature>
+      <Keywords />
+      <Name>Equipment</Name>
+      <Text>(a) a dungeoneer’s pack or (b) an explorer’s pack</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Items>
+        <string>Dungeoneer’s pack</string>
+        <string>Explorer’s pack</string>
+      </Items>
+      <CP>0</CP>
+      <SP>0</SP>
+      <GP>0</GP>
+      <Amount>1</Amount>
+      <UniqueID>FIGHTER_EQUIP4</UniqueID>
+    </ItemChoiceFeature>
+  </FirstClassFeatures>
+  <MulticlassingAbilityScores>Strength Dexterity</MulticlassingAbilityScores>
+  <FeaturesToAddClassKeywordTo />
+  <SpellsToAddClassKeywordTo />
+  <Name>Fighter</Name>
+  <Description />
+  <Flavour />
+  <Descriptions>
+    <Description>
+      <Name>Class Features</Name>
+      <Text>As a fighter, you gain the following class features.</Text>
+    </Description>
+  </Descriptions>
+  <HitDie>10</HitDie>
+  <HitDieCount>1</HitDieCount>
+  <HPFirstLevel>10</HPFirstLevel>
+  <AverageHPPerLevel>6</AverageHPPerLevel>
+  <AvailableAtFirstLevel>true</AvailableAtFirstLevel>
+  <Source>Systems Reference Document v5.1</Source>
+  <MulticlassingCondition>Strength &gt;= 13 or Dexterity &gt;= 13</MulticlassingCondition>
+</ClassDefinition>

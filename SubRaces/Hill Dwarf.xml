@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SubRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <AbilityScoreFeature>
+      <Keywords />
+      <Name>Ability Score Increase</Name>
+      <Text>Your Wisdom score increases by 1.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <Prerequisite />
+      <Modifier>AddScore</Modifier>
+      <Strength>0</Strength>
+      <Constitution>0</Constitution>
+      <Dexterity>0</Dexterity>
+      <Intelligence>0</Intelligence>
+      <Wisdom>1</Wisdom>
+      <Charisma>0</Charisma>
+    </AbilityScoreFeature>
+    <HitPointsFeature>
+      <Keywords />
+      <Name>Dwarven Toughness</Name>
+      <Text>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</Text>
+      <Level>1</Level>
+      <Hidden>true</Hidden>
+      <Prerequisite />
+      <HitPoints>PlayerLevel </HitPoints>
+      <HitPointsPerLevel>0</HitPointsPerLevel>
+    </HitPointsFeature>
+  </Features>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Name>Hill Dwarf</Name>
+  <Description>As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience</Description>
+  <ParentRace>Dwarf</ParentRace>
+</SubRace>

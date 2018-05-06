@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords />
+      <Name>Pact of Chain</Name>
+      <Text>You learn the find familiar spell and can cast it as a ritual. The spell doesn’t count against your number of spells known.
+When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.
+Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its reaction.</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellFeature>
+          <Keywords />
+          <Name>Pact of the Chain</Name>
+          <Text>You learn the find familiar spell and can cast it as a ritual. The spell doesn’t count against your number of spells known.
+When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.
+Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its reaction.</Text>
+          <Level>3</Level>
+          <Hidden>false</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Default</Action>
+          <Prerequisite />
+          <Spell>find familiar</Spell>
+          <SpellCastingAbility>Charisma</SpellCastingAbility>
+          <SpellCastModifier>Ritual</SpellCastModifier>
+          <KeywordsToAdd />
+        </BonusSpellFeature>
+        <FormsCompanionsFeature>
+          <Keywords />
+          <Name>Pact of Chain</Name>
+          <Text>You learn the find familiar spell and can cast it as a ritual. The spell doesn’t count against your number of spells known.
+When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.
+Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its reaction.</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <DisplayName>Pact of Chain</DisplayName>
+          <UniqueID>find familiar</UniqueID>
+          <FormsCompanionsOptions>Name = 'imp' or Name = 'pseudodragon' or Name = 'quasit' or Name = 'sprite'</FormsCompanionsOptions>
+          <FormsCompanionsCount>0</FormsCompanionsCount>
+        </FormsCompanionsFeature>
+      </Features>
+      <Source>Player's Handbook</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Systems Reference Document v5.1</Source>
+</FeatureContainer>

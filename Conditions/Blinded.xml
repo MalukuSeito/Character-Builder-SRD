@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Blinded</Name>
+  <Description>• A blinded creature can’t see and automatically fails any ability check that requires sight.
+• Attack rolls against the creature have advantage, and the creature’s attack rolls have disadvantage.</Description>
+  <Source>Systems Reference Document v5.1</Source>
+</Condition>

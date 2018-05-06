@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AttunementFeatures />
+  <CarryFeatures />
+  <EquipFeatures>
+    <Feature>
+      <Keywords />
+      <Name>Vicious Weapon</Name>
+      <Text>When you roll a 20 on your attack roll with this magic weapon, your critical hit deals an extra 2d6 damage of the weapon's type.</Text>
+      <Level>0</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Other</Action>
+      <Prerequisite />
+    </Feature>
+  </EquipFeatures>
+  <AttunedEquipFeatures />
+  <OnUseFeatures />
+  <AttunedOnUseFeatures />
+  <Requirement>Weapon (any)</Requirement>
+  <Name>Vicious Weapon</Name>
+  <Description>When you roll a 20 on your attack roll with this magic weapon, your critical hit deals an extra 2d6 damage of the weapon's type.</Description>
+  <Slot>Weapon</Slot>
+  <Base>Weapon</Base>
+  <Source>Systems Reference Document v5.1</Source>
+  <PrependName>Vicious</PrependName>
+  <Rarity>Rare</Rarity>
+</MagicProperty>

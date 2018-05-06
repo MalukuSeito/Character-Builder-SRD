@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <MultiFeature>
+      <Keywords>
+        <Keyword>
+          <Name>druid</Name>
+        </Keyword>
+        <Keyword>
+          <Name>land</Name>
+        </Keyword>
+      </Keywords>
+      <Name>Desert</Name>
+      <Text>Circle of the Desert</Text>
+      <Level>3</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite />
+      <Features>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>blur, silence</Text>
+          <Level>3</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>blur</string>
+            <string>silence</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>create food and water, protection from energy</Text>
+          <Level>5</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>create food and water</string>
+            <string>protection from energy</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>blight, hallucinatory terrain</Text>
+          <Level>7</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>blight</string>
+            <string>hallucinatory terrain</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+        <BonusSpellPrepareFeature>
+          <Keywords />
+          <Name>Circle Spells</Name>
+          <Text>insect plague, wall of stone</Text>
+          <Level>9</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>false</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Spells>
+            <string>insect plague</string>
+            <string>wall of stone</string>
+          </Spells>
+          <Condition>false</Condition>
+          <SpellcastingID>DRUID</SpellcastingID>
+          <KeywordsToAdd>
+            <Keyword>
+              <Name>druid</Name>
+            </Keyword>
+          </KeywordsToAdd>
+          <AddTo>LearnSpells</AddTo>
+        </BonusSpellPrepareFeature>
+      </Features>
+      <Source>Systems Reference Document v5.1</Source>
+    </MultiFeature>
+  </Features>
+  <Source>Systems Reference Document v5.1</Source>
+</FeatureContainer>

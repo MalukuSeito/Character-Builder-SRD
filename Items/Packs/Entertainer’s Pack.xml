@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="Pack">
+  <Keywords />
+  <StackSize>1</StackSize>
+  <Name>Entertainer’s Pack</Name>
+  <Description>Includes a backpack, a bedroll, 2 costumes, 5 candles, 5 days of rations, a waterskin, and a disguise kit.</Description>
+  <Price>
+    <cp>0</cp>
+    <sp>0</sp>
+    <ep>0</ep>
+    <gp>40</gp>
+    <pp>0</pp>
+  </Price>
+  <Source>Systems Reference Document v5.1</Source>
+  <Weight>38</Weight>
+  <Contents>
+    <string>Backpack</string>
+    <string>Bedroll</string>
+    <string>Clothes, Costume</string>
+    <string>Clothes, Costume</string>
+    <string>Candle</string>
+    <string>Candle</string>
+    <string>Candle</string>
+    <string>Candle</string>
+    <string>Candle</string>
+    <string>Rations</string>
+    <string>Rations</string>
+    <string>Rations</string>
+    <string>Rations</string>
+    <string>Rations</string>
+    <string>Disguise kit</string>
+    <string>Waterskin</string>
+  </Contents>
+</Item>
