@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Earth Elemental</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>126</HP>
+  <HPRoll>12d10+60</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>burrow 30 ft.</string>
+  </Speeds>
+  <Strength>20</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>5</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>thunder</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+    <string>tremorsense 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Terran</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Earth Glide</Name>
+      <Text>The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn’t disturb the material it moves through.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Siege Monster</Name>
+      <Text>The elemental deals double damage to objects and structures.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The elemental makes two slam attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Slam</Name>
+      <Text>
+Slam. </Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d8+5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

@@ -28,7 +28,9 @@
   <Vulnerablities />
   <Immunities />
   <ConditionImmunities />
-  <Senses />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
   <PassivePerception>0</PassivePerception>
   <Languages>
     <string>Elvish</string>

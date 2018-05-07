@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Fire Elemental</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>13</AC>
+  <HP>102</HP>
+  <HPRoll>12d10+36</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Ignan</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Fire Form</Name>
+      <Text>The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage. In addition, the elemental can enter a hostile creature’s space and stop there. The first time it enters a creature’s space on a turn, that creature takes 5 (1d10) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Illumination</Name>
+      <Text>The elemental sheds bright light in a 30-foot radius and dim light in an additional 30 feet.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Water Susceptibility</Name>
+      <Text>For every 5 feet the elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The elemental makes two touch attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Touch</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

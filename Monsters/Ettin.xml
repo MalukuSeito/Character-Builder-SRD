@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Ettin</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>12</AC>
+  <ACText>natural armor</ACText>
+  <HP>80</HP>
+  <HPRoll>10d10+30</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>21</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>17</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Giant</string>
+    <string>Orc</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Two Heads</Name>
+      <Text>The ettin has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Wakeful</Name>
+      <Text>When one of the ettin’s heads is asleep, its other head is awake.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The ettin makes two attacks: one with its battleaxe and one with its morningstar.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Battleaxe</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d8+5</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Morningstar</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d8+5</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>
