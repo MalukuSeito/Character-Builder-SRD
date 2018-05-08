@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Pegasus</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>celestial</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic good</Alignment>
+  <AC>12</AC>
+  <HP>59</HP>
+  <HPRoll>7d10+21</HPRoll>
+  <Speeds>
+    <string>60 ft.</string>
+    <string>fly 90 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>13</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Celestial but can’t speak</string>
+    <string>understands Common but can’t speak</string>
+    <string>understands Elvish but can’t speak</string>
+    <string>understands Sylvan but can’t speak</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits />
+  <Actions>
+    <MonsterAction>
+      <Name>Hooves</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

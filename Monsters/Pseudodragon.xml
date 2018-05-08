@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Pseudodragon</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Tiny</Size>
+  <Keywords>
+    <Keyword>
+      <Name>dragon</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral good</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>7</HP>
+  <HPRoll>2d4+2</HPRoll>
+  <Speeds>
+    <string>15 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>6</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 10 ft.</string>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Common but can’t speak</string>
+    <string>understands Draconic but can’t speak</string>
+  </Languages>
+  <CR>0.25</CR>
+  <XP>50</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Keen Senses</Name>
+      <Text>The pseudodragon has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The pseudodragon has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Limited Telepathy</Name>
+      <Text>The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4+2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Sting</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>1d4+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>
