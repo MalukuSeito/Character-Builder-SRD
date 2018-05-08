@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Oni</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>16</AC>
+  <ACText>chain mail</ACText>
+  <HP>110</HP>
+  <HPRoll>13d10+39</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 30 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>14</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The oni’s innate spellcasting ability is Charisma (spell save DC 13). The oni can innately cast the following spells, requiring no material components:
+At will: darkness, invisibility
+1/day each: charm person, cone of cold, gaseous form, sleep</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The oni’s weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The oni regains 10 hit points at the start of its turn if it has at least 1 hit point.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The oni makes two attacks, either with its claws or its glaive.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw (Oni Form Only)</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d8+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Glaive</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) slashing damage, or 9 (1d10 + 4) slashing damage in Small or Medium form.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d10+4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Change Shape</Name>
+      <Text>The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Darkness</string>
+    <string>Invisibility</string>
+    <string>Charm Person</string>
+    <string>Cone of Cold</string>
+    <string>Gaseous Form</string>
+    <string>Sleep</string>
+  </Spells>
+  <Slots />
+</Monster>

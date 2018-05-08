@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Ogre</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>giant</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>11</AC>
+  <ACText>hide armor</ACText>
+  <HP>59</HP>
+  <HPRoll>7d10+21</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>5</Intelligence>
+  <Wisdom>7</Wisdom>
+  <Charisma>7</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits />
+  <Actions>
+    <MonsterAction>
+      <Name>Greatclub</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d8+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Javelin</Name>
+      <Text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

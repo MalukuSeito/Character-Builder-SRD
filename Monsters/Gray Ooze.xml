@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Gray Ooze</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>ooze</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>8</AC>
+  <HP>22</HP>
+  <HPRoll>3d8+9</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>climb 10 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>6</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>6</Wisdom>
+  <Charisma>2</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities>
+    <string>blinded</string>
+    <string>charmed</string>
+    <string>deafened</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 60 ft. (blind beyond this radius)</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amorphous</Name>
+      <Text>The ooze can move through a space as narrow as 1 inch wide without squeezing.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Corrode Metal</Name>
+      <Text>Any nonmagical weapon made of metal that hits the ooze corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal that hits the ooze is destroyed after dealing damage.
+The ooze can eat through 2-inch-thick, nonmagical metal in 1 round.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While the ooze remains motionless, it is indistinguishable from an oily pool or wet rock.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Pseudopod</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage plus 7 (2d6) acid damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d6+1</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>
