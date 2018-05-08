@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Efreeti</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Huge</Size>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>200</HP>
+  <HPRoll>16d10+112</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>24</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Ignan</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Elemental Demise</Name>
+      <Text>If the efreeti dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the efreeti was wearing or carrying.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The efreeti’s innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+At will: detect magic
+3/day: enlarge/reduce, tongues
+1/day each: conjure elemental (fire elemental only), gaseous form, invisibility, major image, plane shift, wall of fire</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The efreeti makes two scimitar attacks or uses its Hurl Flame twice.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Scimitar</Name>
+      <Text>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage plus 7 (2d6) fire damage.</Text>
+      <AttackBonus>10</AttackBonus>
+      <Damage>2d6+7+2d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Hurl Flame</Name>
+      <Text>Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 17 (5d6) fire damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>5d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells>
+    <string>Detect Magic</string>
+    <string>Enlarge/Reduce</string>
+    <string>Tongues</string>
+    <string>Conjure Elemental</string>
+    <string>Gaseous Form</string>
+    <string>Invisibility</string>
+    <string>Major Image</string>
+    <string>Plane Shift</string>
+    <string>Wall of Fire</string>
+  </Spells>
+  <Slots />
+</Monster>
