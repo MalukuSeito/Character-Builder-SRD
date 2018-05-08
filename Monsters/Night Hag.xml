@@ -28,7 +28,7 @@
     <string>fire</string>
     <string>bludgeoning from nonmagical attacks that aren’t silvered</string>
     <string>piercing from nonmagical attacks that aren’t silvered</string>
-    <string>slashing from nonmagical attacks that aren’t</string>
+    <string>slashing from nonmagical attacks that aren’t silvered</string>
   </Resistances>
   <Vulnerablities />
   <Immunities>

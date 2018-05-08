@@ -30,7 +30,7 @@
     <string>psychic</string>
     <string>bludgeoning from nonmagical attacks that aren’t adamantine</string>
     <string>piercing from nonmagical attacks that aren’t adamantine</string>
-    <string>slashing from nonmagical attacks that aren’t</string>
+    <string>slashing from nonmagical attacks that aren’t adamantine</string>
   </Immunities>
   <ConditionImmunities>
     <string>charmed</string>

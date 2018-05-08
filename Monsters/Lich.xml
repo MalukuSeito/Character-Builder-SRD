@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Lich</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>any evil alignment</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>135</HP>
+  <HPRoll>18d8+54</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>11</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>20</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>lightning</string>
+    <string>necrotic</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common plus up to five other languages</string>
+  </Languages>
+  <CR>31</CR>
+  <XP>33000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Legendary Resistance (3/Day)</Name>
+      <Text>If the lich fails a saving throw, it can choose to succeed instead.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Rejuvenation</Name>
+      <Text>If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:
+Cantrips (at will): mage hand, prestidigitation, ray of frost
+1st level (4 slots): detect magic, magic missile, shield, thunderwave
+2nd level (3 slots): acid arrow, detect thoughts, invisibility, mirror image
+3rd level (3 slots): animate dead, counterspell, dispel magic, fireball
+4th level (3 slots): blight, dimension door
+5th level (3 slots): cloudkill, scrying
+6th level (1 slot): disintegrate, globe of invulnerability
+7th level (1 slot): finger of death, plane shift
+8th level (1 slot): dominate monster, power word stun
+9th level (1 slot): power word kill</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Turn Resistance</Name>
+      <Text>The lich has advantage on saving throws against any effect that turns undead.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Paralyzing Touch</Name>
+      <Text>Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>3d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Text>The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The lich regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Cantrip</Name>
+      <Text>The lich casts a cantrip.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Paralyzing Touch (Costs 2 Actions)</Name>
+      <Text>The lich uses its Paralyzing Touch.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Frightening Gaze (Costs 2 Actions)</Name>
+      <Text>The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target’s saving throw is successful or the effect ends for it, the target is immune to the lich’s gaze for the next 24 hours.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Disrupt Life (Costs 3 Actions)</Name>
+      <Text>Each non-undead creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>13</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>7</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Mage Hand</string>
+    <string>Prestidigitation</string>
+    <string>Ray of Frost</string>
+    <string>Detect Magic</string>
+    <string>Magic Missile</string>
+    <string>Shield</string>
+    <string>Thunderwave</string>
+    <string>Acid Arrow</string>
+    <string>Detect Thoughts</string>
+    <string>Invisibility</string>
+    <string>Mirror Image</string>
+    <string>Animate Dead</string>
+    <string>Counterspell</string>
+    <string>Dispel Magic</string>
+    <string>Fireball</string>
+    <string>Blight</string>
+    <string>Dimension Door</string>
+    <string>Cloudkill</string>
+    <string>Scrying</string>
+    <string>Disintegrate</string>
+    <string>Globe of Invulnerability</string>
+    <string>Finger of Death</string>
+    <string>Plane Shift</string>
+    <string>Dominate Monster</string>
+    <string>Power Word Stun</string>
+    <string>Power Word Kill</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+  </Slots>
+</Monster>
