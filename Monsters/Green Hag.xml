@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Green Hag</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>82</HP>
+  <HPRoll>11d8+33</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Draconic</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The hag can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The hag’s innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:
+At will: dancing lights, minor illusion, vicious mockery</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Mimicry</Name>
+      <Text>The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d8+4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Illusory Appearance</Name>
+      <Text>The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.
+The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Invisible Passage</Name>
+      <Text>The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Dancing Lights</string>
+    <string>Minor Illusion</string>
+    <string>Vicious Mockery</string>
+  </Spells>
+  <Slots />
+</Monster>

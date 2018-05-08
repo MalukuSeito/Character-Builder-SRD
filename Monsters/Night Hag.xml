@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Night Hag</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>112</HP>
+  <HPRoll>15d8+45</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>14</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>bludgeoning from nonmagical attacks that aren’t silvered</string>
+    <string>piercing from nonmagical attacks that aren’t silvered</string>
+    <string>slashing from nonmagical attacks that aren’t</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>charmed</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Common</string>
+    <string>Infernal</string>
+    <string>Primordial</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Innate Spellcasting</Name>
+      <Text>The hag’s innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:
+At will: detect magic, magic missile
+2/day each: plane shift (self only), ray of enfeeblement, sleep</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The hag has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claws (Hag Form Only)</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d8+4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Change Shape</Name>
+      <Text>The hag magically polymorphs into a Small or Medium female humanoid, or back into her true form. Her statistics are the same in each form. Any equipment she is wearing or carrying isn’t transformed. She reverts to her true form if she dies.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Etherealness</Name>
+      <Text>The hag magically enters the Ethereal Plane from the Material Plane, or vice versa. To do so, the hag must have a heartstone in her possession.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Nightmare Haunting (1/Day)</Name>
+      <Text>While on the Ethereal Plane, the hag magically touches a sleeping humanoid on the Material Plane. A protection from evil and good spell cast on the target prevents this contact, as does a magic circle. As long as the contact persists, the target has dreadful visions. If these visions last for at least 1 hour, the target gains no benefit from its rest, and its hit point maximum is reduced by 5 (1d10). If this effect reduces the target’s hit point maximum to 0, the target dies, and if the target was evil, its soul is trapped in the hag’s soul bag. The reduction to the target’s hit point maximum lasts until removed by the greater restoration spell or similar magic.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Detect Magic</string>
+    <string>Magic Missile</string>
+    <string>Plane Shift</string>
+    <string>Ray of Enfeeblement</string>
+    <string>Sleep</string>
+  </Spells>
+  <Slots />
+</Monster>

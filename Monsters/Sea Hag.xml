@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Sea Hag</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>52</HP>
+  <HPRoll>7d8+21</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>13</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Aquan</string>
+    <string>Common</string>
+    <string>Giant</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The hag can breathe air and water.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Horrific Appearance</Name>
+      <Text>Any humanoid that starts its turn within 30 feet of the hag and can see the hag’s true form must make a DC 11 Wisdom saving throw. On a failed save, the creature is frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the hag is within line of sight, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the hag’s Horrific Appearance for the next 24 hours.
+Unless the target is surprised or the revelation of the hag’s true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has disadvantage on attack rolls against the hag.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6+3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Death Glare</Name>
+      <Text>The hag targets one frightened creature she can see within 30 feet of her. If the target can see the hag, it must succeed on a DC 11 Wisdom saving throw against this magic or drop to 0 hit points.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Illusory Appearance</Name>
+      <Text>The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a bonus action to end it or if she dies.
+The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check to discern that the hag is disguised.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

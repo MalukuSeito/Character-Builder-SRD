@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Hell Hound</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>45</HP>
+  <HPRoll>7d8+14</HPRoll>
+  <Speeds>
+    <string>50 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Infernal but can’t speak it</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Keen Hearing and Smell</Name>
+      <Text>The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text>The hound has advantage on an attack roll against a creature if at least one of the hound’s allies is within 5 feet of the creature and the ally isn’t incapacitated.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) fire damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8+3+2d6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Fire Breath (Recharge 5–6)</Name>
+      <Text>The hound exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

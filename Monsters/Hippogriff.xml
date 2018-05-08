@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Hippogriff</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>11</AC>
+  <HP>19</HP>
+  <HPRoll>3d10+3</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Keen Sight</Name>
+      <Text>The hippogriff has advantage on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The hippogriff makes two attacks: one with its beak and one with its claws.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Beak</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d10+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>
