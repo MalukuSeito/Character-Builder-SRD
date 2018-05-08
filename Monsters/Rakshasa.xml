@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Rakshasa</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>16</AC>
+  <ACText>natural armor</ACText>
+  <HP>110</HP>
+  <HPRoll>13d8+52</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>14</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>13</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>20</Charisma>
+  <Resistances />
+  <Vulnerablities>
+    <string>piercing from magic weapons wielded by good creatures</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Infernal</string>
+  </Languages>
+  <CR>13</CR>
+  <XP>10000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Limited Magic Immunity</Name>
+      <Text>The rakshasa can’t be affected or detected by spells of 6th level or lower unless it wishes to be. It has advantage on saving throws against all other spells and magical effects.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Name/Header:</Name>
+      <Text>The rakshasa’s innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The rakshasa can innately cast the following spells, requiring no material components:
+At will: detect thoughts, disguise self, mage hand, minor illusion
+3/day each: charm person, detect magic, invisibility, major image, suggestion
+1/day each: dominate person, fly, plane shift, true seeing</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The rakshasa makes two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage, and the target is cursed if it is a creature. The magical curse takes effect whenever the target takes a short or long rest, filling the target’s thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short or long rest. The curse lasts until it is lifted by a remove curse spell or similar magic.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>5</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Detect Thoughts</string>
+    <string>Disguise Self</string>
+    <string>Mage Hand</string>
+    <string>Minor Illusion</string>
+    <string>Charm Person</string>
+    <string>Detect Magic</string>
+    <string>Invisibility</string>
+    <string>Major Image</string>
+    <string>Suggestion</string>
+    <string>Dominate Person</string>
+    <string>Fly</string>
+    <string>Plane Shift</string>
+    <string>True Seeing</string>
+  </Spells>
+  <Slots />
+</Monster>
