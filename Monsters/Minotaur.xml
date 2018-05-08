@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Minotaur</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>76</HP>
+  <HPRoll>9d10+27</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>16</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Charge</Name>
+      <Text>If the minotaur moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked prone.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Labyrinthine Recall</Name>
+      <Text>The minotaur can perfectly recall any path it has traveled.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Reckless</Name>
+      <Text>At the start of its turn, the minotaur can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Greataxe</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d12+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Gore</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d8+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Magmin</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Small</Size>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>9</HP>
+  <HPRoll>2d6+2</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>7</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>10</Charisma>
+  <Resistances>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Ignan</string>
+  </Languages>
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Death Burst</Name>
+      <Text>When the magmin dies, it explodes in a burst of fire and magma. Each creature within 10 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. Flammable objects that aren’t being worn or carried in that area are ignited.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Ignited Illumination</Name>
+      <Text>As a bonus action, the magmin can set itself ablaze or extinguish its flames. While ablaze, the magmin sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Touch</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 3 (1d6) fire damage at the end of each of its turns.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>2d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

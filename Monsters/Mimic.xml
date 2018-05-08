@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Mimic</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+    <Keyword>
+      <Name>shapechanger</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>12</AC>
+  <ACText>natural armor</ACText>
+  <HP>58</HP>
+  <HPRoll>9d8+18</HPRoll>
+  <Speeds>
+    <string>15 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>5</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>acid</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>prone</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Shapechanger</Name>
+      <Text>The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Adhesive (Object Form Only)</Name>
+      <Text>The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>False Appearance (Object Form Only)</Name>
+      <Text>While the mimic remains motionless, it is indistinguishable from an ordinary object.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Grappler</Name>
+      <Text>The mimic has advantage on attack rolls against any creature grappled by it.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Pseudopod</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8+3+1d8</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

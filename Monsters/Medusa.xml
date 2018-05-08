@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Medusa</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>127</HP>
+  <HPRoll>17d8+51</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+  </Languages>
+  <CR>6</CR>
+  <XP>2300</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Petrifying Gaze</Name>
+      <Text>When a creature that can see the medusa’s eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a DC 14 Constitution saving throw if the medusa isn’t incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.
+Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can’t see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.
+If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The medusa makes either three melee attacks—one with its snake hair and two with its shortsword—or two ranged attacks with its longbow.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Snake Hair</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage plus 14 (4d6) poison damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+2+4d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Shortsword</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+2</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Longbow</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 7 (2d6) poison damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d8+2+2d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

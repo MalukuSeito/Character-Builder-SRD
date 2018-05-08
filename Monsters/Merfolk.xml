@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Merfolk</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>humanoid</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral</Alignment>
+  <AC>11</AC>
+  <HP>11</HP>
+  <HPRoll>2d8+2</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>10</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>12</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Aquan</string>
+    <string>Common</string>
+  </Languages>
+  <CR>0.125</CR>
+  <XP>25</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The merfolk can breathe air and water.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Spear</Name>
+      <Text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to make a melee attack.</Text>
+      <AttackBonus>2</AttackBonus>
+      <Damage>1d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

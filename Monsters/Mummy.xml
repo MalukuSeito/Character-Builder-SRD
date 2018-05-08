@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Mummy</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>11</AC>
+  <ACText>natural armor</ACText>
+  <HP>58</HP>
+  <HPRoll>9d8+18</HPRoll>
+  <Speeds>
+    <string>20 ft.</string>
+  </Speeds>
+  <Strength>16</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>the languages it knew in life</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits />
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The mummy can use its Dreadful Glare and makes one attack with its rotting fist.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Rotting Fist</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be cursed with mummy rot. The cursed target can’t regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target’s hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6+3+3d6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Dreadful Glare</Name>
+      <Text>The mummy targets one creature it can see within 60 feet of it. If the target can see the mummy, it must succeed on a DC 11 Wisdom saving throw against this magic or become frightened until the end of the mummy’s next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>2</Bonus>
+      <Text />
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

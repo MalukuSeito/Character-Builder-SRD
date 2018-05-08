@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Merrow</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>45</HP>
+  <HPRoll>6d10+12</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>swim 40 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>8</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>9</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Aquan</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amphibious</Name>
+      <Text>The merrow can breathe air and water.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The merrow makes two attacks: one with its bite and one with its claws or harpoon.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d8+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d4+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Harpoon</Name>
+      <Text>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a Huge or smaller creature, it must succeed on a Strength contest against the merrow or be pulled up to 20 feet toward the merrow.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

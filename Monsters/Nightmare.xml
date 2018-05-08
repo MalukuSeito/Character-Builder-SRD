@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Nightmare</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>68</HP>
+  <HPRoll>8d10+24</HPRoll>
+  <Speeds>
+    <string>60 ft.</string>
+    <string>fly 90 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>13</Wisdom>
+  <Charisma>15</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>fire</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Abyssal but can’t speak</string>
+    <string>understands Common but can’t speak</string>
+    <string>understands Infernal but can’t speak</string>
+  </Languages>
+  <CR>3</CR>
+  <XP>700</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Confer Fire Resistance</Name>
+      <Text>The nightmare can grant resistance to fire damage to anyone riding it.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Illumination</Name>
+      <Text>The nightmare sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Hooves</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 7 (2d6) fire damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d8+4+2d6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Ethereal Stride</Name>
+      <Text>The nightmare and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

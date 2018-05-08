@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Ice Mephit</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Small</Size>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>11</AC>
+  <HP>21</HP>
+  <HPRoll>6d6</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 30 ft.</string>
+  </Speeds>
+  <Strength>7</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>10</Constitution>
+  <Intelligence>9</Intelligence>
+  <Wisdom>11</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances />
+  <Vulnerablities>
+    <string>bludgeoning</string>
+    <string>fire</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>cold</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Aquan</string>
+    <string>Auran</string>
+  </Languages>
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Death Burst</Name>
+      <Text>When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 feet of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>False Appearance</Name>
+      <Text>While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Innate Spellcasting (1/Day)</Name>
+      <Text>The mephit can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claws</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>1d4+1</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Frost Breath (Recharge 6)</Name>
+      <Text>The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold damage on a failed save, or half as much damage on a successful one.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Fog Cloud</string>
+  </Spells>
+  <Slots />
+</Monster>

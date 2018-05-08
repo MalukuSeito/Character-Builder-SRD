@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Guardian Naga</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful good</Alignment>
+  <AC>18</AC>
+  <ACText>natural armor</ACText>
+  <HP>127</HP>
+  <HPRoll>15d10+45</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>19</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>19</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Celestial</string>
+    <string>Common</string>
+  </Languages>
+  <CR>10</CR>
+  <XP>5900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Rejuvenation</Name>
+      <Text>If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following cleric spells prepared:
+Cantrips (at will): mending, sacred flame, thaumaturgy
+1st level (4 slots): command, cure wounds, shield of faith
+2nd level (3 slots): calm emotions, hold person
+3rd level (3 slots): bestow curse, clairvoyance
+4th level (3 slots): banishment, freedom of movement
+5th level (2 slots): flame strike, geas
+6th level (1 slot): true seeing</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 8 (1d8 + 4) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>1d8+4</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Spit Poison</Name>
+      <Text>Ranged Weapon Attack: +8 to hit, range 15/30 ft., one creature. Hit: The target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells>
+    <string>Mending</string>
+    <string>Sacred Flame</string>
+    <string>Thaumaturgy</string>
+    <string>Command</string>
+    <string>Cure Wounds</string>
+    <string>Shield of Faith</string>
+    <string>Calm Emotions</string>
+    <string>Hold Person</string>
+    <string>Bestow Curse</string>
+    <string>Clairvoyance</string>
+    <string>Banishment</string>
+    <string>Freedom of Movement</string>
+    <string>Flame Strike</string>
+    <string>Geas</string>
+    <string>True Seeing</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+    <int>1</int>
+  </Slots>
+</Monster>

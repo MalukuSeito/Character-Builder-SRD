@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Spirit Naga</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>75</HP>
+  <HPRoll>10d10+20</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>14</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>15</Wisdom>
+  <Charisma>16</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Common</string>
+  </Languages>
+  <CR>8</CR>
+  <XP>3900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Rejuvenation</Name>
+      <Text>If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:
+Cantrips (at will): mage hand, minor illusion, ray of frost
+1st level (4 slots): charm person, detect magic, sleep
+2nd level (3 slots): detect thoughts, hold person
+3rd level (3 slots): lightning bolt, water breathing
+4th level (3 slots): blight, dimension door
+5th level (2 slots): dominate person</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>1d6+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Charisma</Ability>
+      <Bonus>3</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus />
+  <Spells>
+    <string>Mage Hand</string>
+    <string>Minor Illusion</string>
+    <string>Ray of Frost</string>
+    <string>Charm Person</string>
+    <string>Detect Magic</string>
+    <string>Sleep</string>
+    <string>Detect Thoughts</string>
+    <string>Hold Person</string>
+    <string>Lightning Bolt</string>
+    <string>Water Breathing</string>
+    <string>Blight</string>
+    <string>Dimension Door</string>
+    <string>Dominate Person</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+  </Slots>
+</Monster>
