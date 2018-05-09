@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Specter</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>12</AC>
+  <HP>22</HP>
+  <HPRoll>5d8</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>fly 50 ft. (hover)</string>
+  </Speeds>
+  <Strength>1</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>10</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>11</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>thunder</string>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>necrotic, poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+    <string>unconscious</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands all languages it knew in life but can’t speak</string>
+  </Languages>
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Incorporeal Movement</Name>
+      <Text>The specter can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Sensitivity</Name>
+      <Text>While in sunlight, the specter has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Life Drain</Name>
+      <Text>Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 10 (3d6) necrotic damage. The target must succeed on a DC 10 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>3d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

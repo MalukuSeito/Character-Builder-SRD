@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Succubus/Incubus</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fiend</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>66</HP>
+  <HPRoll>12d8+12</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>8</Strength>
+  <Dexterity>17</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>15</Intelligence>
+  <Wisdom>12</Wisdom>
+  <Charisma>20</Charisma>
+  <Resistances>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>poison</string>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Abyssal</string>
+    <string>Common</string>
+    <string>Infernal</string>
+    <string>telepathy 60 ft.</string>
+  </Languages>
+  <CR>4</CR>
+  <XP>1100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Telepathic Bond</Name>
+      <Text>The fiend ignores the range restriction on its telepathy when communicating with a creature it has charmed. The two don’t even need to be on the same plane of existence.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shapechanger</Name>
+      <Text>The fiend can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Without wings, the fiend loses its flying speed. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Claw (Fiend Form Only)</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Charm</Name>
+      <Text>One humanoid the fiend can see within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be magically charmed for 1 day. The charmed target obeys the fiend’s verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully saves against the effect, or if the effect on it ends, the target is immune to this fiend’s Charm for the next 24 hours.
+The fiend can have only one target charmed at a time. If it charms another, the effect on the previous target ends.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Draining Kiss</Name>
+      <Text>The fiend kisses a creature charmed by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, taking 32 (5d10 + 5) psychic damage on a failed save, or half as much damage on a successful one. The target’s hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Etherealness</Name>
+      <Text>The fiend magically enters the Ethereal Plane from the Material Plane, or vice versa.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Deception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Insight</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Persuasion</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

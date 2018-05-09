@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Minotaur Skeleton</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>12</AC>
+  <ACText>natural armor</ACText>
+  <HP>67</HP>
+  <HPRoll>9d10+18</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>8</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances />
+  <Vulnerablities>
+    <string>bludgeoning</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands Abyssal but can’t speak</string>
+  </Languages>
+  <CR>2</CR>
+  <XP>450</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Charge</Name>
+      <Text>If the skeleton moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked prone.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Greataxe</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d12+4</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Gore</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d8+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

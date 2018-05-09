@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Androsphinx</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>199</HP>
+  <HPRoll>19d10+95</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>22</Strength>
+  <Dexterity>10</Dexterity>
+  <Constitution>20</Constitution>
+  <Intelligence>16</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>23</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>psychic</string>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Sphinx</string>
+  </Languages>
+  <CR>17</CR>
+  <XP>18000</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Inscrutable</Name>
+      <Text>The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx’s intentions or sincerity have disadvantage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The sphinx’s weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The sphinx is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following cleric spells prepared:
+Cantrips (at will): sacred flame, spare the dying, thaumaturgy
+1st level (4 slots): command, detect evil and good, detect magic
+2nd level (3 slots): lesser restoration, zone of truth
+3rd level (3 slots): dispel magic, tongues
+4th level (3 slots): banishment, freedom of movement
+5th level (2 slots): flame strike, greater restoration
+6th level (1 slot): heroes’ feast</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The sphinx makes two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage.</Text>
+      <AttackBonus>12</AttackBonus>
+      <Damage>2d10+6</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Roar (3/Day)</Name>
+      <Text>The sphinx emits a magical roar. Each time it roars before finishing a long rest, the roar is louder and the effect is different, as detailed below. Each creature within 500 feet of the sphinx and able to hear the roar must make a saving throw.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>First Roar</Name>
+      <Text>Each creature that fails a DC 18 Wisdom saving throw is frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Second Roar</Name>
+      <Text>Each creature that fails a DC 18 Wisdom saving throw is deafened and frightened for 1 minute. A frightened creature is paralyzed and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Third Roar</Name>
+      <Text>Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn’t knocked prone.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Name />
+      <Text>The sphinx can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The sphinx regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Claw Attack</Name>
+      <Text>The sphinx makes one claw attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Teleport (Costs 2 Actions)</Name>
+      <Text>The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Cast a Spell (Costs 3 Actions)</Name>
+      <Text>The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Dexterity</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Constitution</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Intelligence</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+    <MonsterSaveBonus>
+      <Ability>Wisdom</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSaveBonus>
+  </SaveBonus>
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>6</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>12</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Sacred Flame</string>
+    <string>Spare the Dying</string>
+    <string>Thaumaturgy</string>
+    <string>Command</string>
+    <string>Detect Evil and Good</string>
+    <string>Detect Magic</string>
+    <string>Lesser Restoration</string>
+    <string>Zone of Truth</string>
+    <string>Dispel Magic</string>
+    <string>Tongues</string>
+    <string>Banishment</string>
+    <string>Freedom of Movement</string>
+    <string>Flame Strike</string>
+    <string>Greater Restoration</string>
+    <string>Heroes’ Feast</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>2</int>
+    <int>1</int>
+  </Slots>
+</Monster>

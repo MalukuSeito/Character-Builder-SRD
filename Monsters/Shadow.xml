@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Shadow</Name>
+  <Descriptions />
+  <Source>Custom Source</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic evil</Alignment>
+  <AC>12</AC>
+  <HP>16</HP>
+  <HPRoll>3d8+3</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>6</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>6</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>8</Charisma>
+  <Resistances>
+    <string>acid</string>
+    <string>cold</string>
+    <string>fire</string>
+    <string>lightning</string>
+    <string>thunder</string>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>radiant</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>necrotic</string>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>grappled</string>
+    <string>paralyzed</string>
+    <string>petrified</string>
+    <string>poisoned</string>
+    <string>prone</string>
+    <string>restrained</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Amorphous</Name>
+      <Text>The shadow can move through a space as narrow as 1 inch wide without squeezing.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Shadow Stealth</Name>
+      <Text>While in dim light or darkness, the shadow can take the Hide action as a bonus action.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Sunlight Weakness</Name>
+      <Text>While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Strength Drain</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage, and the target’s Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.
+If a non-evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later.</Text>
+      <AttackBonus>4</AttackBonus>
+      <Damage>2d6+2</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+      <Text>+6 in dim light or darkness</Text>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

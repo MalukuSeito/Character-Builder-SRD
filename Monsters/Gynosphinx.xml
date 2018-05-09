@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Gynosphinx</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>monstrosity</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful neutral</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>136</HP>
+  <HPRoll>16d10+48</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+    <string>fly 60 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>15</Dexterity>
+  <Constitution>16</Constitution>
+  <Intelligence>18</Intelligence>
+  <Wisdom>18</Wisdom>
+  <Charisma>18</Charisma>
+  <Resistances>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities />
+  <Immunities>
+    <string>psychic</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>frightened</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>truesight 120 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Sphinx</string>
+  </Languages>
+  <CR>11</CR>
+  <XP>7200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Inscrutable</Name>
+      <Text>The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx’s intentions or sincerity have disadvantage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Magic Weapons</Name>
+      <Text>The sphinx’s weapon attacks are magical.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spellcasting</Name>
+      <Text>The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared:
+Cantrips (at will): mage hand, minor illusion, prestidigitation
+1st level (4 slots): detect magic, identify, shield
+2nd level (3 slots): darkness, locate object, suggestion
+3rd level (3 slots): dispel magic, remove curse, tongues
+4th level (3 slots): banishment, greater invisibility
+5th level (1 slot): legend lore</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The sphinx makes two claw attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Claw</Name>
+      <Text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.</Text>
+      <AttackBonus>8</AttackBonus>
+      <Damage>2d8+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions>
+    <MonsterTrait>
+      <Text>The sphinx can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The sphinx regains spent legendary actions at the start of its turn.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Claw Attack</Name>
+      <Text>The sphinx makes one claw attack.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Teleport (Costs 2 Actions)</Name>
+      <Text>The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Cast a Spell (Costs 3 Actions)</Name>
+      <Text>The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.</Text>
+    </MonsterTrait>
+  </LegendaryActions>
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Arcana</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>History</Skill>
+      <Ability>None</Ability>
+      <Bonus>8</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Religion</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells>
+    <string>Mage Hand</string>
+    <string>Minor Illusion</string>
+    <string>Prestidigitation</string>
+    <string>Detect Magic</string>
+    <string>Identify</string>
+    <string>Shield</string>
+    <string>Darkness</string>
+    <string>Locate Object</string>
+    <string>Suggestion</string>
+    <string>Dispel Magic</string>
+    <string>Remove Curse</string>
+    <string>Tongues</string>
+    <string>Banishment</string>
+    <string>Greater Invisibility</string>
+    <string>Legend Lore</string>
+  </Spells>
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>1</int>
+  </Slots>
+</Monster>

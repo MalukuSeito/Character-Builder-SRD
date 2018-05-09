@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Satyr</Name>
+  <Descriptions />
+  <Source>Custom Source</Source>
+  <Size>Medium</Size>
+  <Keywords>
+    <Keyword>
+      <Name>fey</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>chaotic neutral</Alignment>
+  <AC>14</AC>
+  <ACText>leather armor</ACText>
+  <HP>31</HP>
+  <HPRoll>7d8</HPRoll>
+  <Speeds>
+    <string>40 ft.</string>
+  </Speeds>
+  <Strength>12</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>12</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>14</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses />
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Common</string>
+    <string>Elvish</string>
+    <string>Sylvan</string>
+  </Languages>
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Magic Resistance</Name>
+      <Text>The satyr has advantage on saving throws against spells and other magical effects.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Ram</Name>
+      <Text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) bludgeoning damage.</Text>
+      <AttackBonus>3</AttackBonus>
+      <Damage>2d4+1</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Shortsword</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+3</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Shortbow</Name>
+      <Text>Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d6+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Performance</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>2</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

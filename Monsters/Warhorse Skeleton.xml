@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Warhorse Skeleton</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>undead</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>lawful evil</Alignment>
+  <AC>13</AC>
+  <ACText>barding scraps</ACText>
+  <HP>22</HP>
+  <HPRoll>3d10+6</HPRoll>
+  <Speeds>
+    <string>60 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>12</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>8</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances />
+  <Vulnerablities>
+    <string>bludgeoning</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>exhaustion</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.5</CR>
+  <XP>100</XP>
+  <Traits />
+  <Actions>
+    <MonsterAction>
+      <Name>Hooves</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>2d6+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

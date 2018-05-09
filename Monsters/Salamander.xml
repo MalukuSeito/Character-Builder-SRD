@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Salamander</Name>
+  <Descriptions />
+  <Source>Custom Source</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>elemental</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>neutral evil</Alignment>
+  <AC>15</AC>
+  <ACText>natural armor</ACText>
+  <HP>90</HP>
+  <HPRoll>12d10+24</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>14</Dexterity>
+  <Constitution>15</Constitution>
+  <Intelligence>11</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>12</Charisma>
+  <Resistances>
+    <string>bludgeoning from nonmagical attacks</string>
+    <string>piercing from nonmagical attacks</string>
+    <string>slashing from nonmagical attacks</string>
+  </Resistances>
+  <Vulnerablities>
+    <string>cold</string>
+  </Vulnerablities>
+  <Immunities>
+    <string>fire</string>
+  </Immunities>
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>Ignan</string>
+  </Languages>
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Heated Body</Name>
+      <Text>A creature that touches the salamander or hits it with a melee attack while within 5 feet of it takes 7 (2d6) fire damage.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Heated Weapons</Name>
+      <Text>Any metal melee weapon the salamander wields deals an extra 3 (1d6) fire damage on a hit (included in the attack).</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The salamander makes two attacks: one with its spear and one with its tail.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Spear</Name>
+      <Text>Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6+4+1d6</Damage>
+    </MonsterAction>
+    <MonsterAction>
+      <Name>Tail</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) fire damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can’t make tail attacks against other targets.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6+4+2d6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Stirge</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Tiny</Size>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>14</AC>
+  <ACText>natural armor</ACText>
+  <HP>2</HP>
+  <HPRoll>1d4</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>fly 40 ft.</string>
+  </Speeds>
+  <Strength>4</Strength>
+  <Dexterity>16</Dexterity>
+  <Constitution>11</Constitution>
+  <Intelligence>2</Intelligence>
+  <Wisdom>8</Wisdom>
+  <Charisma>6</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>0.125</CR>
+  <XP>25</XP>
+  <Traits />
+  <Actions>
+    <MonsterAction>
+      <Name>Blood Drain</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn’t attack. Instead, at the start of each of the stirge’s turns, the target loses 5 (1d4 + 3) hit points due to blood loss.
+The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>1d4+3</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

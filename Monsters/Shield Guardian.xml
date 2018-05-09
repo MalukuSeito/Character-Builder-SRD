@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Shield Guardian</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>construct</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>17</AC>
+  <ACText>natural armor</ACText>
+  <HP>142</HP>
+  <HPRoll>15d10+60</HPRoll>
+  <Speeds>
+    <string>30 ft.</string>
+  </Speeds>
+  <Strength>18</Strength>
+  <Dexterity>8</Dexterity>
+  <Constitution>18</Constitution>
+  <Intelligence>7</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>3</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities>
+    <string>poison</string>
+  </Immunities>
+  <ConditionImmunities>
+    <string>charmed</string>
+    <string>exhaustion</string>
+    <string>frightened</string>
+    <string>paralyzed</string>
+    <string>poisoned</string>
+  </ConditionImmunities>
+  <Senses>
+    <string>blindsight 10 ft.</string>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages>
+    <string>understands commands given in any language but can’t speak</string>
+  </Languages>
+  <CR>7</CR>
+  <XP>2900</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Bound</Name>
+      <Text>The shield guardian is magically bound to an amulet. As long as the guardian and its amulet are on the same plane of existence, the amulet’s wearer can telepathically call the guardian to travel to it, and the guardian knows the distance and direction to the amulet. If the guardian is within 60 feet of the amulet’s wearer, half of any damage the wearer takes (rounded up) is transferred to the guardian.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Regeneration</Name>
+      <Text>The shield guardian regains 10 hit points at the start of its turn if it has at least 1 hit point.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Spell Storing</Name>
+      <Text>A spellcaster who wears the shield guardian’s amulet can cause the guardian to store one spell of 4th level or lower. To do so, the wearer must cast the spell on the guardian. The spell has no effect but is stored within the guardian. When commanded to do so by the wearer or when a situation arises that was predefined by the spellcaster, the guardian casts the stored spell with any parameters set by the original caster, requiring no components. When the spell is cast or a new spell is stored, any previously stored spell is lost.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterTrait>
+      <Name>Multiattack</Name>
+      <Text>The guardian makes two fist attacks.</Text>
+    </MonsterTrait>
+    <MonsterAction>
+      <Name>Fist</Name>
+      <Text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.</Text>
+      <AttackBonus>7</AttackBonus>
+      <Damage>2d6+4</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions>
+    <MonsterTrait>
+      <Name>Shield</Name>
+      <Text>When a creature makes an attack against the wearer of the guardian’s amulet, the guardian grants a +2 bonus to the wearer’s AC if the guardian is within 5 feet of the wearer.</Text>
+    </MonsterTrait>
+  </Reactions>
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>
