@@ -14,7 +14,10 @@
   <ACText>natural armor</ACText>
   <HP>110</HP>
   <HPRoll>13d10+39</HPRoll>
-  <Speeds />
+  <Speeds>
+    <string>20 ft.</string>
+    <string>fly 80 ft.</string>
+  </Speeds>
   <Strength>19</Strength>
   <Dexterity>10</Dexterity>
   <Constitution>16</Constitution>

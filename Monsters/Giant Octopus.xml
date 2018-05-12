@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Giant Octopus</Name>
+  <Descriptions />
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Large</Size>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>11</AC>
+  <HP>52</HP>
+  <HPRoll>8d10+8</HPRoll>
+  <Speeds>
+    <string>10 ft.</string>
+    <string>swim 60 ft.</string>
+  </Speeds>
+  <Strength>17</Strength>
+  <Dexterity>13</Dexterity>
+  <Constitution>13</Constitution>
+  <Intelligence>4</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>4</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>darkvision 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>1</CR>
+  <XP>200</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Hold Breath</Name>
+      <Text>While out of water, the octopus can hold its breath for 1 hour.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Underwater Camouflage</Name>
+      <Text>The octopus has advantage on Dexterity (Stealth) checks made while underwater.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Water Breathing</Name>
+      <Text>The octopus can breathe only underwater.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Tentacles</Name>
+      <Text>Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can’t use its tentacles on another target.</Text>
+      <AttackBonus>5</AttackBonus>
+      <Damage>2d6+3</Damage>
+    </MonsterAction>
+    <MonsterTrait>
+      <Name>Ink Cloud (Recharges after a Short or Long Rest)</Name>
+      <Text>A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.</Text>
+    </MonsterTrait>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Perception</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+    <MonsterSkillBonus>
+      <Skill>Stealth</Skill>
+      <Ability>None</Ability>
+      <Bonus>4</Bonus>
+    </MonsterSkillBonus>
+  </SkillBonus>
+  <Spells />
+  <Slots />
+</Monster>

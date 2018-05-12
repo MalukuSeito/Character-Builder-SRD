@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Axe Beak</Name>
+  <Name>Giant Poisonous Snake</Name>
   <Descriptions />
-  <Description>An axe beak is a tall flightless bird with strong legs and a heavy, wedge-shaped beak. It has a nasty disposition and tends to attack any unfamiliar creature that wanders too close.</Description>
   <Source>Systems Reference Document v5.1</Source>
-  <Size>Large</Size>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>beast</Name>
     </Keyword>
   </Keywords>
   <Alignment>unaligned</Alignment>
-  <AC>11</AC>
-  <HP>19</HP>
-  <HPRoll>3d10+314</HPRoll>
+  <AC>14</AC>
+  <HP>11</HP>
+  <HPRoll>2d8+2</HPRoll>
   <Speeds>
-    <string>50 ft.</string>
+    <string>30 ft.</string>
+    <string>swim 30 ft.</string>
   </Speeds>
-  <Strength>0</Strength>
-  <Dexterity>12</Dexterity>
-  <Constitution>12</Constitution>
+  <Strength>10</Strength>
+  <Dexterity>18</Dexterity>
+  <Constitution>13</Constitution>
   <Intelligence>2</Intelligence>
   <Wisdom>10</Wisdom>
-  <Charisma>5</Charisma>
+  <Charisma>3</Charisma>
   <Resistances />
   <Vulnerablities />
   <Immunities />
   <ConditionImmunities />
-  <Senses />
+  <Senses>
+    <string>blindsight 10 ft.</string>
+  </Senses>
   <PassivePerception>0</PassivePerception>
   <Languages />
   <CR>0.25</CR>
@@ -35,10 +37,10 @@
   <Traits />
   <Actions>
     <MonsterAction>
-      <Name>Beak</Name>
-      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage.</Text>
-      <AttackBonus>4</AttackBonus>
-      <Damage>1d8+2</Damage>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</Text>
+      <AttackBonus>6</AttackBonus>
+      <Damage>1d4+4</Damage>
     </MonsterAction>
   </Actions>
   <Reactions />

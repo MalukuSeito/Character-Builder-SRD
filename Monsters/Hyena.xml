@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Axe Beak</Name>
+  <Name>Hyena</Name>
   <Descriptions />
-  <Description>An axe beak is a tall flightless bird with strong legs and a heavy, wedge-shaped beak. It has a nasty disposition and tends to attack any unfamiliar creature that wanders too close.</Description>
   <Source>Systems Reference Document v5.1</Source>
-  <Size>Large</Size>
+  <Size>Medium</Size>
   <Keywords>
     <Keyword>
       <Name>beast</Name>
@@ -12,16 +11,16 @@
   </Keywords>
   <Alignment>unaligned</Alignment>
   <AC>11</AC>
-  <HP>19</HP>
-  <HPRoll>3d10+314</HPRoll>
+  <HP>5</HP>
+  <HPRoll>1d8+1</HPRoll>
   <Speeds>
     <string>50 ft.</string>
   </Speeds>
-  <Strength>0</Strength>
-  <Dexterity>12</Dexterity>
+  <Strength>11</Strength>
+  <Dexterity>13</Dexterity>
   <Constitution>12</Constitution>
   <Intelligence>2</Intelligence>
-  <Wisdom>10</Wisdom>
+  <Wisdom>12</Wisdom>
   <Charisma>5</Charisma>
   <Resistances />
   <Vulnerablities />
@@ -30,15 +29,20 @@
   <Senses />
   <PassivePerception>0</PassivePerception>
   <Languages />
-  <CR>0.25</CR>
-  <XP>50</XP>
-  <Traits />
+  <CR>0</CR>
+  <XP>10</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Pack Tactics</Name>
+      <Text>The hyena has advantage on an attack roll against a creature if at least one of the hyena’s allies is within 5 feet of the creature and the ally isn’t incapacitated.</Text>
+    </MonsterTrait>
+  </Traits>
   <Actions>
     <MonsterAction>
-      <Name>Beak</Name>
-      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage.</Text>
-      <AttackBonus>4</AttackBonus>
-      <Damage>1d8+2</Damage>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.</Text>
+      <AttackBonus>2</AttackBonus>
+      <Damage>1d6</Damage>
     </MonsterAction>
   </Actions>
   <Reactions />

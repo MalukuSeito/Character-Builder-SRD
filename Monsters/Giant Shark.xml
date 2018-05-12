@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Giant Shark</Name>
+  <Descriptions />
+  <Description>A giant shark is 30 feet long and normally found in deep oceans. Utterly fearless, it preys on anything that crosses its path, including whales and ships.</Description>
+  <Source>Systems Reference Document v5.1</Source>
+  <Size>Huge</Size>
+  <Keywords>
+    <Keyword>
+      <Name>beast</Name>
+    </Keyword>
+  </Keywords>
+  <Alignment>unaligned</Alignment>
+  <AC>13</AC>
+  <ACText>natural armor</ACText>
+  <HP>126</HP>
+  <HPRoll>11d12+55</HPRoll>
+  <Speeds>
+    <string>0 ft.</string>
+    <string>swim 50 ft.</string>
+  </Speeds>
+  <Strength>23</Strength>
+  <Dexterity>11</Dexterity>
+  <Constitution>21</Constitution>
+  <Intelligence>1</Intelligence>
+  <Wisdom>10</Wisdom>
+  <Charisma>5</Charisma>
+  <Resistances />
+  <Vulnerablities />
+  <Immunities />
+  <ConditionImmunities />
+  <Senses>
+    <string>blindsight 60 ft.</string>
+  </Senses>
+  <PassivePerception>0</PassivePerception>
+  <Languages />
+  <CR>5</CR>
+  <XP>1800</XP>
+  <Traits>
+    <MonsterTrait>
+      <Name>Blood Frenzy</Name>
+      <Text>The shark has advantage on melee attack rolls against any creature that doesn’t have all its hit points.</Text>
+    </MonsterTrait>
+    <MonsterTrait>
+      <Name>Water Breathing</Name>
+      <Text>The shark can breathe only underwater.</Text>
+    </MonsterTrait>
+  </Traits>
+  <Actions>
+    <MonsterAction>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage.</Text>
+      <AttackBonus>9</AttackBonus>
+      <Damage>3d10+6</Damage>
+    </MonsterAction>
+  </Actions>
+  <Reactions />
+  <LegendaryActions />
+  <SaveBonus />
+  <SkillBonus />
+  <Spells />
+  <Slots />
+</Monster>

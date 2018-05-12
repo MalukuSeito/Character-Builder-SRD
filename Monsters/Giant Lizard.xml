@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Axe Beak</Name>
+  <Name>Giant Lizard</Name>
   <Descriptions />
-  <Description>An axe beak is a tall flightless bird with strong legs and a heavy, wedge-shaped beak. It has a nasty disposition and tends to attack any unfamiliar creature that wanders too close.</Description>
+  <Description>A giant lizard can be ridden or used as a draft animal. Lizardfolk also keep them as pets, and subterranean giant lizards are used as mounts and pack animals by drow, duergar, and others.</Description>
   <Source>Systems Reference Document v5.1</Source>
   <Size>Large</Size>
   <Keywords>
@@ -11,15 +11,17 @@
     </Keyword>
   </Keywords>
   <Alignment>unaligned</Alignment>
-  <AC>11</AC>
+  <AC>12</AC>
+  <ACText>natural armor</ACText>
   <HP>19</HP>
-  <HPRoll>3d10+314</HPRoll>
+  <HPRoll>3d10+3</HPRoll>
   <Speeds>
-    <string>50 ft.</string>
+    <string>30 ft.</string>
+    <string>climb 30 ft.</string>
   </Speeds>
-  <Strength>0</Strength>
+  <Strength>15</Strength>
   <Dexterity>12</Dexterity>
-  <Constitution>12</Constitution>
+  <Constitution>13</Constitution>
   <Intelligence>2</Intelligence>
   <Wisdom>10</Wisdom>
   <Charisma>5</Charisma>
@@ -27,7 +29,9 @@
   <Vulnerablities />
   <Immunities />
   <ConditionImmunities />
-  <Senses />
+  <Senses>
+    <string>darkvision 30 ft.</string>
+  </Senses>
   <PassivePerception>0</PassivePerception>
   <Languages />
   <CR>0.25</CR>
@@ -35,8 +39,8 @@
   <Traits />
   <Actions>
     <MonsterAction>
-      <Name>Beak</Name>
-      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage.</Text>
+      <Name>Bite</Name>
+      <Text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</Text>
       <AttackBonus>4</AttackBonus>
       <Damage>1d8+2</Damage>
     </MonsterAction>
