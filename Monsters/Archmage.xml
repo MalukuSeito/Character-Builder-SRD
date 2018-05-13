@@ -125,5 +125,15 @@ Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking gras
     <string>Mind Blank</string>
     <string>Time Stop</string>
   </Spells>
-  <Slots />
+  <Slots>
+    <int>4</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>3</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+    <int>1</int>
+  </Slots>
 </Monster>
