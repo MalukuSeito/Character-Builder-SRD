@@ -709,7 +709,7 @@ The extra hit points increase when you reach certain levels in this class: to 1d
       <Keywords />
       <Name>Font of Inspiration</Name>
       <Text>Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.</Text>
-      <Level>6</Level>
+      <Level>5</Level>
       <Hidden>false</Hidden>
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
@@ -918,8 +918,8 @@ You learn two additional spells from any class at 14th level and again at 18th l
           <NoDisplay>false</NoDisplay>
           <Action>Hidden</Action>
           <Items>
-            <string>leather armor</string>
-            <string>dagger</string>
+            <string>Leather</string>
+            <string>Dagger</string>
           </Items>
           <CP>0</CP>
           <SP>0</SP>

@@ -363,30 +363,6 @@ Spell attack modifier = your proficiency bonus + your Intelligence modifier</Tex
       <UniqueID>WIZARD_SPELLBOOK</UniqueID>
       <Amount>2</Amount>
     </IncreaseSpellChoiceAmountFeature>
-    <IncreaseSpellChoiceAmountFeature>
-      <Keywords />
-      <Name />
-      <Text />
-      <Level>4</Level>
-      <Hidden>true</Hidden>
-      <NoDisplay>false</NoDisplay>
-      <Action>Hidden</Action>
-      <Prerequisite />
-      <UniqueID>WIZARD_CANTRIP</UniqueID>
-      <Amount>1</Amount>
-    </IncreaseSpellChoiceAmountFeature>
-    <IncreaseSpellChoiceAmountFeature>
-      <Keywords />
-      <Name />
-      <Text />
-      <Level>10</Level>
-      <Hidden>true</Hidden>
-      <NoDisplay>false</NoDisplay>
-      <Action>Hidden</Action>
-      <Prerequisite />
-      <UniqueID>WIZARD_CANTRIP</UniqueID>
-      <Amount>1</Amount>
-    </IncreaseSpellChoiceAmountFeature>
     <SpellSlotsFeature>
       <Keywords />
       <Name>Spell slots</Name>

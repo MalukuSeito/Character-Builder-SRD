@@ -943,7 +943,7 @@ At higher levels, you gain more warlock spells of your choice that can be cast i
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Items>
-        <string>Leather armor</string>
+        <string>Leather</string>
         <string>Dagger</string>
         <string>Dagger</string>
       </Items>
