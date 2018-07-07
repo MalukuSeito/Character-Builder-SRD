@@ -342,7 +342,7 @@ Additionally, when you gain a level in this class, you can choose one of the ran
       <SpellcastingID>RANGER</SpellcastingID>
       <UniqueID>RANGER_SPELLS</UniqueID>
       <AddTo>LearnSpells</AddTo>
-      <Amount>1</Amount>
+      <Amount>2</Amount>
     </SpellChoiceFeature>
     <IncreaseSpellChoiceAmountFeature>
       <Keywords />
