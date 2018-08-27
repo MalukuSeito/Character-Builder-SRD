@@ -27,7 +27,7 @@ Your rage lasts for 1 minute. It ends early if you  are knocked unconscious or i
           <Level>1</Level>
           <Hidden>true</Hidden>
           <NoDisplay>true</NoDisplay>
-          <Action>Hidden</Action>
+          <Action>Bonus</Action>
           <Prerequisite />
           <ValueBonus>None</ValueBonus>
           <Value>2</Value>

@@ -768,8 +768,8 @@ Additionally, you can ignore the verbal and somatic components of your druid spe
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Items>
-        <string>Leather armor</string>
-        <string>explorer’s pack</string>
+        <string>Leather</string>
+        <string>Explorer’s Pack</string>
       </Items>
       <CP>0</CP>
       <SP>0</SP>

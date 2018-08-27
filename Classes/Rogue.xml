@@ -510,10 +510,10 @@ Once you use this feature, you can’t use it again until you finish a short or 
       <Action>Hidden</Action>
       <Prerequisite />
       <Tools>
-        <string>Hand crossbow</string>
         <string>Longsword</string>
         <string>Rapier</string>
         <string>Shortsword</string>
+        <string>Crossbow, Hand</string>
       </Tools>
     </ToolProficiencyFeature>
     <ToolProficiencyFeature>
@@ -526,7 +526,7 @@ Once you use this feature, you can’t use it again until you finish a short or 
       <Action>Hidden</Action>
       <Prerequisite />
       <Tools>
-        <string>Thieves’ tools</string>
+        <string>Thieves' tools</string>
       </Tools>
     </ToolProficiencyFeature>
     <SaveProficiencyFeature>
