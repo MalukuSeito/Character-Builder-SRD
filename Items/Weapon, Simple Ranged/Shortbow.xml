@@ -22,10 +22,10 @@
       <Name>bow</Name>
     </Keyword>
     <Keyword>
-      <Name>piercing</Name>
+      <Name>shortbow</Name>
     </Keyword>
     <Keyword>
-      <Name>shortbow</Name>
+      <Name>piercing</Name>
     </Keyword>
   </Keywords>
   <StackSize>1</StackSize>
@@ -39,6 +39,6 @@
   </Price>
   <Source>Systems Reference Document v5.1</Source>
   <Weight>2</Weight>
-  <Damage>1d8</Damage>
+  <Damage>1d6</Damage>
   <DamageType>piercing</DamageType>
 </Item>

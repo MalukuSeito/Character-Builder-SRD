@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Features>
+    <ACFeature>
+      <Keywords />
+      <Name>Mage Armor (Spell Result)</Name>
+      <Text>The target’s base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action.</Text>
+      <Level>1</Level>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Hidden</Action>
+      <Prerequisite>Mage Armor</Prerequisite>
+      <Expression>if(Unarmored, 13 + DexMod, 0) + ShieldBonus</Expression>
+    </ACFeature>
+  </Features>
+  <Source>Systems Reference Document v5.1</Source>
+</FeatureContainer>

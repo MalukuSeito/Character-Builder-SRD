@@ -45,7 +45,8 @@
     <Feature>
       <Keywords />
       <Name>Staff of the Magi  - Spells</Name>
-      <Text>While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: conjure elemental (7 charges), dispel magic (3 charges), fireball (7th-level version, 7 charges), flaming sphere (2 charges), ice storm (4 charges), invisibility (2 charges), knock (2 charges), lightning bolt (7th-level version, 7 charges), passwall (5 charges), plane shift (7 charges), telekinesis (5 charges), wall of fire (4 charges), or web (2 charges).</Text>
+      <Text>While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: conjure elemental (7 charges), dispel magic (3 charges), fireball (7th-level version, 7 charges), flaming sphere (2 charges), ice storm (4 charges), invisibility (2 charges), knock (2 charges), lightning bolt (7th-level version, 7 charges), passwall (5 charges), plane shift (7 charges), telekinesis (5 charges), wall of fire (4 charges), or web (2 charges).
+You can also use an action to cast one of the following spells from the staff without using any charges: arcane lock, detect magic, enlarge/reduce, light, mage hand, or protection from evil and good. </Text>
       <Level>0</Level>
       <Hidden>false</Hidden>
       <NoDisplay>false</NoDisplay>
@@ -69,7 +70,7 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Conjure Elemental</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
@@ -83,7 +84,7 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Dispel Magic</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
@@ -97,7 +98,7 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Fireball</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
@@ -111,7 +112,7 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Ice Storm</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
@@ -125,7 +126,7 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Flaming Sphere</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
@@ -139,7 +140,7 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Invisibility</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
@@ -153,7 +154,7 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Knock</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
@@ -167,7 +168,7 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Lightning Bolt</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
@@ -181,7 +182,7 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Passwall</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
@@ -195,7 +196,7 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Plane Shift</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
@@ -209,7 +210,7 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Telekinesis</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
@@ -223,7 +224,7 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Wall of Fire</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
@@ -237,9 +238,93 @@
       <Level>0</Level>
       <Hidden>true</Hidden>
       <NoDisplay>true</NoDisplay>
-      <Action>Default</Action>
+      <Action>Action</Action>
       <Prerequisite />
       <Spell>Web</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Staff of the Magi</Name>
+      <Text>no charges</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Arcane Lock</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Staff of the Magi</Name>
+      <Text>no charges</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Detect Magic</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Staff of the Magi</Name>
+      <Text>no charges</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Enlarge/Reduce</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Staff of the Magi</Name>
+      <Text>no charges</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Light</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Staff of the Magi</Name>
+      <Text>no charges</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Mage Hand</Spell>
+      <SpellCastingAbility>None</SpellCastingAbility>
+      <SpellCastModifier>Charges</SpellCastModifier>
+      <KeywordsToAdd />
+    </BonusSpellFeature>
+    <BonusSpellFeature>
+      <Keywords />
+      <Name>Staff of the Magi</Name>
+      <Text>no charges</Text>
+      <Level>0</Level>
+      <Hidden>true</Hidden>
+      <NoDisplay>true</NoDisplay>
+      <Action>Action</Action>
+      <Prerequisite />
+      <Spell>Protection from Evil and Good</Spell>
       <SpellCastingAbility>None</SpellCastingAbility>
       <SpellCastModifier>Charges</SpellCastModifier>
       <KeywordsToAdd />
@@ -314,7 +399,7 @@ Distance from Origin: Damage
 The staff has 50 charges for the following properties. It regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 20, the staff regains 1d12 + 1 charges.</Description>
   <Slot>Weapon</Slot>
   <Base>Staff</Base>
-  <Source>Systems Reference Document v5.1</Source>
+  <Source>Dungeon Master's Guide</Source>
   <PostName>of the Magi</PostName>
   <Rarity>Legendary</Rarity>
 </MagicProperty>
