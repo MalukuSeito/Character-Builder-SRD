@@ -4,9 +4,9 @@
     <ChoiceFeature>
       <Keywords />
       <Name>Expertise</Name>
-      <Text> At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves’ tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</Text>
+      <Text>At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves’ tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.</Text>
       <Level>1</Level>
-      <Hidden>false</Hidden>
+      <Hidden>true</Hidden>
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />

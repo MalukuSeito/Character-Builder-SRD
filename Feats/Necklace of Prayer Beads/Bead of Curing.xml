@@ -6,7 +6,9 @@
       <Name>Bead of Curing</Name>
       <Text>The bead contains the cure wounds spell at 2nd level or the lesser restoration spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.</Text>
       <Level>0</Level>
-      <Hidden>true</Hidden>
+      <Hidden>false</Hidden>
+      <NoDisplay>false</NoDisplay>
+      <Action>Bonus</Action>
       <Prerequisite />
       <Features>
         <BonusSpellFeature>
@@ -14,7 +16,9 @@
           <Name>Bead of Curing</Name>
           <Text>The bead contains the cure wounds spell at 2nd level or the lesser restoration spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.</Text>
           <Level>0</Level>
-          <Hidden>false</Hidden>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
           <Prerequisite />
           <Spell>Lesser Restoration</Spell>
           <SpellCastingAbility>None</SpellCastingAbility>
@@ -27,6 +31,8 @@
           <Text />
           <Level>0</Level>
           <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
           <Prerequisite />
           <Spell>Cure Wounds</Spell>
           <SpellCastingAbility>None</SpellCastingAbility>
@@ -34,6 +40,7 @@
           <KeywordsToAdd />
         </BonusSpellFeature>
       </Features>
+      <Source>Systems Reference Document v5.1</Source>
     </MultiFeature>
   </Features>
   <Source>Systems Reference Document v5.1</Source>
