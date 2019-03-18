@@ -175,6 +175,35 @@ Once you have raged the number of times shown  for your barbarian level in the R
           <Recharge>AtWill</Recharge>
           <ExclusionID />
         </ResourceFeature>
+        <BonusFeature>
+          <Keywords />
+          <Name />
+          <Text />
+          <Level>1</Level>
+          <Hidden>true</Hidden>
+          <NoDisplay>true</NoDisplay>
+          <Action>Hidden</Action>
+          <Prerequisite />
+          <Condition>Weapon and StrengthAttack</Condition>
+          <Skills />
+          <SkillBonus>0</SkillBonus>
+          <SkillPassive>false</SkillPassive>
+          <AttackBonus>0</AttackBonus>
+          <DamageBonus>2 + if(classlevel &gt;= 9, 1, 0) + if(classlevel &gt;=16, 1, 0)</DamageBonus>
+          <SaveDCBonus>0</SaveDCBonus>
+          <InitiativeBonus>0</InitiativeBonus>
+          <DamageBonusText />
+          <DamageBonusModifier>None</DamageBonusModifier>
+          <BaseAbility>None</BaseAbility>
+          <SavingThrowBonus>0</SavingThrowBonus>
+          <ProficiencyBonus>0</ProficiencyBonus>
+          <SavingThrowAbility>None</SavingThrowAbility>
+          <SizeChange>0</SizeChange>
+          <ProficiencyOptions />
+          <AllowsOffHand>false</AllowsOffHand>
+          <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+          <OptionalText>rage</OptionalText>
+        </BonusFeature>
       </Features>
     </MultiFeature>
     <ACFeature>

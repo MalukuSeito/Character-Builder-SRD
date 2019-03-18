@@ -771,7 +771,7 @@ You learn two additional spells from any class at 14th level and again at 18th l
           <Name>bard</Name>
         </Keyword>
       </KeywordsToAdd>
-      <AvailableSpellChoices>Level &lt; ClassSpellLevel</AvailableSpellChoices>
+      <AvailableSpellChoices>Level &lt;= ClassSpellLevel</AvailableSpellChoices>
       <SpellcastingID>BARD_SPELLCASTING</SpellcastingID>
       <UniqueID>BARD_MAGICAL_SECRET</UniqueID>
       <AddTo>LearnSpells</AddTo>

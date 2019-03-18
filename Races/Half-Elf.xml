@@ -206,7 +206,7 @@ You can’t discern color in darkness, only shades of gray.</Text>
       <Name>Skill Versatility</Name>
       <Text>You gain proficiency in two skills of your choice.</Text>
       <Level>1</Level>
-      <Hidden>false</Hidden>
+      <Hidden>true</Hidden>
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />

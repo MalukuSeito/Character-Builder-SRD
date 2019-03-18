@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FeatureContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Features>
-    <Feature>
+    <BonusFeature>
       <Keywords>
         <Keyword>
           <Name>fighter</Name>
@@ -17,7 +17,24 @@
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
-    </Feature>
+      <Condition>Weapon</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>true</OffHandAbilityScoreDamage>
+    </BonusFeature>
   </Features>
   <Source>Systems Reference Document v5.1</Source>
 </FeatureContainer>

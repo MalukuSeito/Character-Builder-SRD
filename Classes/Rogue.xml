@@ -139,7 +139,7 @@
       <UniqueID>ROGUE_EXPERTISE2</UniqueID>
       <AllowSameChoice>false</AllowSameChoice>
     </ChoiceFeature>
-    <Feature>
+    <BonusFeature>
       <Keywords />
       <Name>Sneak Attack</Name>
       <Text>Beginning at 1st level, you know how to strike subtly and exploit a foe’s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
@@ -150,8 +150,27 @@ The amount of the extra damage increases as you gain levels in this class, as sh
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
-    </Feature>
-    <Feature>
+      <Condition>weapon and (finesse or ranged) and classlevel &gt;= 1 and classlevel &lt; 3</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+1d6</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+      <OptionalText>sneak attack</OptionalText>
+    </BonusFeature>
+    <BonusFeature>
       <Keywords />
       <Name>Sneak Attack</Name>
       <Text>Sneak Attack increases to 2d6.</Text>
@@ -160,8 +179,27 @@ The amount of the extra damage increases as you gain levels in this class, as sh
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
-    </Feature>
-    <Feature>
+      <Condition>weapon and (finesse or ranged) and classlevel &gt;= 3 and classlevel &lt; 5</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+2d6</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+      <OptionalText>sneak attack</OptionalText>
+    </BonusFeature>
+    <BonusFeature>
       <Keywords />
       <Name>Sneak Attack</Name>
       <Text>Sneak Attack increases to 3d6.</Text>
@@ -170,8 +208,27 @@ The amount of the extra damage increases as you gain levels in this class, as sh
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
-    </Feature>
-    <Feature>
+      <Condition>weapon and (finesse or ranged) and classlevel &gt;= 5 and classlevel &lt; 7</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+3d6</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+      <OptionalText>sneak attack</OptionalText>
+    </BonusFeature>
+    <BonusFeature>
       <Keywords />
       <Name>Sneak Attack</Name>
       <Text>Sneak Attack increases to 4d6.</Text>
@@ -180,8 +237,27 @@ The amount of the extra damage increases as you gain levels in this class, as sh
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
-    </Feature>
-    <Feature>
+      <Condition>weapon and (finesse or ranged) and classlevel &gt;= 7 and classlevel &lt; 9</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+4d6</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+      <OptionalText>sneak attack</OptionalText>
+    </BonusFeature>
+    <BonusFeature>
       <Keywords />
       <Name>Sneak Attack</Name>
       <Text>Sneak Attack increases to 5d6.</Text>
@@ -190,8 +266,27 @@ The amount of the extra damage increases as you gain levels in this class, as sh
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
-    </Feature>
-    <Feature>
+      <Condition>weapon and (finesse or ranged) and classlevel &gt;= 9 and classlevel &lt; 11</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+5d6</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+      <OptionalText>sneak attack</OptionalText>
+    </BonusFeature>
+    <BonusFeature>
       <Keywords />
       <Name>Sneak Attack</Name>
       <Text>Sneak Attack increases to 6d6.</Text>
@@ -200,8 +295,27 @@ The amount of the extra damage increases as you gain levels in this class, as sh
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
-    </Feature>
-    <Feature>
+      <Condition>weapon and (finesse or ranged) and classlevel &gt;= 11 and classlevel &lt; 13</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+6d6</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+      <OptionalText>sneak attack</OptionalText>
+    </BonusFeature>
+    <BonusFeature>
       <Keywords />
       <Name>Sneak Attack</Name>
       <Text>Sneak Attack increases to 7d6.</Text>
@@ -210,8 +324,27 @@ The amount of the extra damage increases as you gain levels in this class, as sh
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
-    </Feature>
-    <Feature>
+      <Condition>weapon and (finesse or ranged) and classlevel &gt;= 13 and classlevel &lt; 15</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+7d6</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+      <OptionalText>sneak attack</OptionalText>
+    </BonusFeature>
+    <BonusFeature>
       <Keywords />
       <Name>Sneak Attack</Name>
       <Text>Sneak Attack increases to 8d6.</Text>
@@ -220,8 +353,27 @@ The amount of the extra damage increases as you gain levels in this class, as sh
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
-    </Feature>
-    <Feature>
+      <Condition>weapon and (finesse or ranged) and classlevel &gt;= 15 and classlevel &lt; 17</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+8d6</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+      <OptionalText>sneak attack</OptionalText>
+    </BonusFeature>
+    <BonusFeature>
       <Keywords />
       <Name>Sneak Attack</Name>
       <Text>Sneak Attack increases to 9d6.</Text>
@@ -230,8 +382,27 @@ The amount of the extra damage increases as you gain levels in this class, as sh
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
-    </Feature>
-    <Feature>
+      <Condition>weapon and (finesse or ranged) and classlevel &gt;= 11 and classlevel &lt; 13</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+9d6</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+      <OptionalText>sneak attack</OptionalText>
+    </BonusFeature>
+    <BonusFeature>
       <Keywords />
       <Name>Sneak Attack</Name>
       <Text>Sneak Attack increases to 10d6.</Text>
@@ -240,7 +411,26 @@ The amount of the extra damage increases as you gain levels in this class, as sh
       <NoDisplay>false</NoDisplay>
       <Action>Hidden</Action>
       <Prerequisite />
-    </Feature>
+      <Condition>weapon and (finesse or ranged) and classlevel &gt;= 19</Condition>
+      <Skills />
+      <SkillBonus>0</SkillBonus>
+      <SkillPassive>false</SkillPassive>
+      <AttackBonus>0</AttackBonus>
+      <DamageBonus>0</DamageBonus>
+      <SaveDCBonus>0</SaveDCBonus>
+      <InitiativeBonus>0</InitiativeBonus>
+      <DamageBonusText>+10d6</DamageBonusText>
+      <DamageBonusModifier>None</DamageBonusModifier>
+      <BaseAbility>None</BaseAbility>
+      <SavingThrowBonus>0</SavingThrowBonus>
+      <ProficiencyBonus>0</ProficiencyBonus>
+      <SavingThrowAbility>None</SavingThrowAbility>
+      <SizeChange>0</SizeChange>
+      <ProficiencyOptions />
+      <AllowsOffHand>false</AllowsOffHand>
+      <OffHandAbilityScoreDamage>false</OffHandAbilityScoreDamage>
+      <OptionalText>sneak attack</OptionalText>
+    </BonusFeature>
     <LanguageProficiencyFeature>
       <Keywords />
       <Name>Thieves’ Cant</Name>
